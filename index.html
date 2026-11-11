@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rota — demonstração ao vivo</title>
-<meta http-equiv="refresh" content="3;url=https://apt-hour-founder-staff.trycloudflare.com">
+<noscript><meta http-equiv="refresh" content="3;url=https://apt-hour-founder-staff.trycloudflare.com"></noscript>
 <style>
   :root { --tinta:#111418; --papel:#ffffff; --borda:#d9dee3; --ac:#1F7A4D; --fraco:#5b6670; }
   * { box-sizing: border-box; }
@@ -26,11 +26,11 @@
   <p class="sub">Sistema de apoio à decisão para o aluno dessemestralizado<br>
   ADMF01 — Sistemas de Apoio à Decisão · UFBA / Instituto de Computação</p>
 
-  <a class="botao" href="https://apt-hour-founder-staff.trycloudflare.com">Abrir a demonstração</a>
+  <a class="botao" id="ir" href="https://apt-hour-founder-staff.trycloudflare.com">Abrir a demonstração</a>
 
   <div class="cartao">
     <b>Você está sendo levado para lá em 3 segundos.</b>
-    <p style="margin:8px 0 0">Se nada acontecer, o endereço é <code>https://apt-hour-founder-staff.trycloudflare.com</code></p>
+    <p style="margin:8px 0 0">Se nada acontecer, o endereço é <code id="cru">https://apt-hour-founder-staff.trycloudflare.com</code></p>
   </div>
 
   <div class="cartao">
@@ -57,4 +57,29 @@
     API de origem: <a href="https://github.com/caioalcarria/sigaa-ufba-api">github.com/caioalcarria/sigaa-ufba-api</a>
   </footer>
 </main>
+
+<script>
+/* O endereço da demonstração é um túnel efêmero: muda quando o túnel reinicia.
+   O GitHub Pages serve esta página com cache de 10 minutos, então o endereço
+   escrito aqui dentro pode já estar velho quando alguém abre. Por isso a página
+   PERGUNTA o endereço atual ao endereco.json, furando o cache no pedido, antes
+   de encaminhar. Sem JavaScript vale o <noscript> do topo, com o último
+   endereço conhecido. Escrito em 11/11/2026, pensando na aula de 16/11. */
+(async () => {
+  const ir = document.getElementById('ir'), cru = document.getElementById('cru');
+  let destino = ir.getAttribute('href');
+  try {
+    const r = await fetch('endereco.json?t=' + Date.now(), { cache: 'no-store' });
+    if (r.ok) {
+      const j = await r.json();
+      if (j && typeof j.endereco === 'string' && /^https:\/\/[a-z0-9.-]+$/.test(j.endereco)) {
+        destino = j.endereco;
+        ir.setAttribute('href', destino);
+        cru.textContent = destino;
+      }
+    }
+  } catch (e) { /* sem resposta do json: vale o endereço escrito na página */ }
+  setTimeout(() => location.replace(destino), 3000);
+})();
+</script>
 </html>
