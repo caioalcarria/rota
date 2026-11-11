@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rota — demonstração ao vivo</title>
+<meta http-equiv="refresh" content="3;url=https://rhode-relevant-tigers-creations.trycloudflare.com">
+<style>
+  :root { --tinta:#111418; --papel:#ffffff; --borda:#d9dee3; --ac:#1F7A4D; --fraco:#5b6670; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--papel); color:var(--tinta);
+         font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+         display:flex; justify-content:center; padding:32px 20px; }
+  main { max-width:620px; width:100%; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  p.sub { color:var(--fraco); margin:0 0 24px; }
+  a.botao { display:block; background:var(--ac); color:#fff; text-decoration:none;
+            padding:14px 18px; border-radius:8px; font-weight:600; text-align:center; }
+  a.botao:focus-visible { outline:3px solid var(--tinta); outline-offset:2px; }
+  .cartao { border:1px solid var(--borda); border-radius:8px; padding:16px 18px; margin:20px 0; }
+  code { background:#f2f4f6; padding:2px 6px; border-radius:4px; font-size:14px; word-break:break-all; }
+  ul { margin:8px 0 0; padding-left:20px; } li { margin:4px 0; }
+  footer { color:var(--fraco); font-size:14px; margin-top:28px; border-top:1px solid var(--borda); padding-top:14px; }
+</style>
+<main>
+  <h1>Rota</h1>
+  <p class="sub">Sistema de apoio à decisão para o aluno dessemestralizado<br>
+  ADMF01 — Sistemas de Apoio à Decisão · UFBA / Instituto de Computação</p>
+
+  <a class="botao" href="https://rhode-relevant-tigers-creations.trycloudflare.com">Abrir a demonstração</a>
+
+  <div class="cartao">
+    <b>Você está sendo levado para lá em 3 segundos.</b>
+    <p style="margin:8px 0 0">Se nada acontecer, o endereço é <code>https://rhode-relevant-tigers-creations.trycloudflare.com</code></p>
+  </div>
+
+  <div class="cartao">
+    <b>O que esperar</b>
+    <ul>
+      <li>Clique em <b>Entrar na demonstração</b>: não é preciso conta nem senha.</li>
+      <li>Os dados são de um aluno <b>fictício</b> de Ciência da Computação, montado sobre a
+          estrutura curricular, os pré-requisitos e a oferta <b>reais</b> do curso, todos de
+          consulta pública do SIGAA.</li>
+      <li>A instância pública <b>recusa login do SIGAA</b> de propósito: senha institucional não
+          se digita em endereço público. O modo completo roda na máquina do próprio aluno.</li>
+    </ul>
+  </div>
+
+  <footer>
+    Código-fonte: <a href="https://github.com/caioalcarria/rota">github.com/caioalcarria/rota</a><br>
+    API de origem: <a href="https://github.com/caioalcarria/sigaa-ufba-api">github.com/caioalcarria/sigaa-ufba-api</a>
+  </footer>
+</main>
+</html>
