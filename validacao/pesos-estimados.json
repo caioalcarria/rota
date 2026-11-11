@@ -1,0 +1,21 @@
+{
+ "variaveis": [
+  "desempenho_no_eixo",
+  "reprovacoes_no_componente",
+  "trancamentos_no_componente",
+  "aproveitamento_recente",
+  "carga_do_periodo"
+ ],
+ "pesos": [
+  0.2056,
+  -0.1966,
+  0.0732,
+  -0.0978,
+  -0.3438,
+  0.3303
+ ],
+ "auc_dentro": 0.7,
+ "auc_fora": 0.5848,
+ "n_casos": 42,
+ "n_fora_da_amostra": 30
+}

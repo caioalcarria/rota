@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+
+# snapshots de aluno real: só o dados_demo.json (anonimizado) entra no repositório
+snapshot*.json
+espelho*.json

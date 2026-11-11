@@ -1,0 +1,18 @@
+# Rota — dependências do protótipo.
+#
+# São quatro, de propósito. k-médias e apriori estão escritos em Python puro
+# em nucleo/mineracao.py: com dezenas de pontos e 8 transações, a vantagem de
+# scikit-learn ou mlxtend não existe, e um requirements curto instala em
+# qualquer máquina sem compilar nada.
+#
+# Instalação:
+#   python3 -m venv .venv && . .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Testado em Python 3.12. Pinado em minor (~=) para o professor instalar hoje
+# o mesmo que foi testado, sem travar correção de segurança.
+
+fastapi~=0.149.0      # a API HTTP do protótipo
+uvicorn~=0.54.0       # servidor ASGI que roda o app
+httpx~=0.28.1         # cliente assíncrono que fala com a sigaa-ufba-api
+pydantic~=2.14.1      # validação do corpo das requisições (vem com o FastAPI)

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="escuro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rota — apoio à decisão acadêmica</title>
+<link rel="stylesheet" href="/assets/style.css?v=f2c56e9b">
+</head>
+<body>
+
+<div id="tela-login" class="login-wrap">
+  <div class="login">
+    <div class="marca">
+      <svg class="logo" viewBox="0 0 24 24" role="img" aria-label="Rota"><path d="M3 20.5 L3 15.5 L9 15.5 L9 10.5 L15 10.5 L15 5.5 L18 5.5" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19.6" cy="5.5" r="3.1" fill="currentColor"/></svg>
+      <div>
+        <div class="marca-nome">Rota</div>
+        <div class="marca-sub">apoio à decisão · progressão acadêmica</div>
+      </div>
+    </div>
+    <h1 class="login-t">Como você quer entrar?</h1>
+
+    <!-- Dois caminhos. O dos dados simulados funciona em qualquer instância.
+         O do SIGAA só existe de verdade quando o Rota roda na máquina do
+         próprio aluno: na instância pública o formulário nem aparece (ver
+         app.js), e o servidor recusa a senha do mesmo jeito (app.py). -->
+    <section class="opcao" aria-labelledby="t-simulado">
+      <h2 class="h3" id="t-simulado">Com dados simulados</h2>
+      <p class="sub">Aluno fictício de Ciência da Computação, dessemestralizado, sobre a
+        estrutura, os pré-requisitos e a oferta reais do curso. Sem senha.</p>
+      <button class="primario" id="btn-demo" type="button">Entrar com o aluno fictício</button>
+    </section>
+
+    <section class="opcao" aria-labelledby="t-sigaa">
+      <h2 class="h3" id="t-sigaa">Com os seus dados do SIGAA</h2>
+      <!-- começa escondido: só aparece depois que /api/status disser que esta
+           instância aceita login. Assim a pública nunca mostra campo de senha,
+           nem por um instante. -->
+      <div id="sigaa-local" class="oculto">
+        <form id="form-login">
+          <label for="usuario">Usuário do SIGAA</label>
+          <input id="usuario" type="text" autocomplete="username" autocapitalize="off" spellcheck="false" required>
+          <label for="senha">Senha</label>
+          <input id="senha" type="password" autocomplete="current-password" required>
+          <div class="erro" id="erro-login"></div>
+          <button class="secundario" id="btn-entrar" type="submit">Entrar com o SIGAA</button>
+        </form>
+        <p class="nota"><b>Nada é gravado.</b> O login vai direto pro SIGAA. Nenhuma
+          credencial é salva em banco, disco ou servidor. O acesso morre quando você
+          fecha a aba.</p>
+      </div>
+      <div id="sigaa-publico" class="oculto">
+        <button class="secundario" id="btn-sigaa" type="button" aria-expanded="false"
+          aria-controls="sigaa-recusa">Usar com os meus dados do SIGAA</button>
+        <div id="sigaa-recusa" class="recusa oculto">
+          <p><b>Este endereço não aceita a sua senha do SIGAA, e isso é de propósito.</b>
+            Ele é público: um link que circula num grupo de WhatsApp não é lugar de
+            digitar senha institucional, e quem digita não tem como saber quem está do
+            outro lado. Nenhum campo de senha aparece aqui, e o servidor recusa
+            qualquer login que não seja o do aluno fictício.</p>
+          <p>Para usar com os seus dados de verdade, rode o Rota na <b>sua</b> máquina.
+            Aí o login vai direto da sua máquina para o SIGAA:</p>
+          <pre class="cmd">python3 -m venv .venv &amp;&amp; . .venv/bin/activate
+pip install -r requirements.txt
+python -m uvicorn app:app --port 8012</pre>
+          <p class="fraco">Antes disso, suba a sigaa-ufba-api, que faz o login com a
+            sua sessão. O passo a passo está no README do repositório, em "Rodando com
+            um aluno real".</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div id="tela-app" class="shell oculto">
+
+  <aside class="lateral">
+    <div class="marca">
+      <svg class="logo" viewBox="0 0 24 24" role="img" aria-label="Rota"><path d="M3 20.5 L3 15.5 L9 15.5 L9 10.5 L15 10.5 L15 5.5 L18 5.5" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19.6" cy="5.5" r="3.1" fill="currentColor"/></svg>
+      <div>
+        <div class="marca-nome">Rota</div>
+        <div class="marca-sub">progressão acadêmica</div>
+      </div>
+    </div>
+
+    <!-- Cinco telas, cada uma responde UMA pergunta. Antes eram seis, e a de
+         "Decisão" empilhava sete blocos: tudo na mesma tela e nada dizia de
+         onde saiu. Agora as contas moram numa tela só delas. -->
+    <nav class="nav" aria-label="Telas do Rota">
+      <button class="nav-i ativa" data-v="formatura" aria-current="page">Quando eu me formo</button>
+      <button class="nav-i" data-v="montar">Montar o semestre</button>
+      <button class="nav-i" data-v="falta">O que falta</button>
+      <button class="nav-i" data-v="conta">Como a conta é feita</button>
+      <button class="nav-i" data-v="relatorio">Relatório</button>
+    </nav>
+
+    <div class="lateral-pe">
+      <div class="quem" id="quem"></div>
+      <div class="pe-botoes">
+        <button class="btn-ghost" id="btn-tema" type="button">Tema claro</button>
+        <button class="btn-ghost" id="btn-sair" type="button">Sair</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="conteudo">
+    <div id="carregando" class="carregando">carregando seus dados do SIGAA…</div>
+
+    <!-- 1 ----------------------------------------------------------------->
+    <section id="v-formatura" class="vista oculto">
+      <header class="cab">
+        <h1 class="h1">Quando eu me formo?</h1>
+        <p class="resumo" id="r-formatura"></p>
+      </header>
+
+      <section>
+        <div class="sec-cab">
+          <h2 class="h2">Os caminhos possíveis</h2>
+          <p class="sub">Data de formatura e matérias por semestre. Abre marcado o
+            mais cedo que cabe no seu ritmo e no prazo.</p>
+        </div>
+        <div class="caminhos" id="caminhos" role="radiogroup" aria-label="Caminhos até a formatura"></div>
+      </section>
+
+      <section class="bloco">
+        <div class="sec-cab">
+          <h2 class="h2" id="gr-t">Carga por semestre neste caminho</h2>
+          <p class="sub" id="gr-s"></p>
+        </div>
+        <div id="grafico"></div>
+      </section>
+
+      <section class="bloco" id="bloco-plano">
+        <div class="sec-cab">
+          <h2 class="h2" id="plano-t">O caminho, semestre a semestre</h2>
+          <p class="sub" id="plano-v"></p>
+        </div>
+        <div class="cenario" id="cenario"></div>
+        <div class="legenda">
+          <span><i class="pt obrig"></i> obrigatória</span>
+          <span><i class="pt opt"></i> optativa</span>
+          <span><i class="pt tcc"></i> TCC</span>
+          <span class="leg-nota" id="leg-nota"></span>
+        </div>
+        <div id="plano"></div>
+      </section>
+    </section>
+
+    <!-- 2 ----------------------------------------------------------------->
+    <section id="v-montar" class="vista oculto">
+      <header class="cab">
+        <h1 class="h1">O que eu pego no próximo semestre?</h1>
+        <p class="resumo" id="r-montar"></p>
+      </header>
+      <div id="fonte-montar"></div>
+      <div class="montar-grade">
+        <section class="bloco rola"><div id="t-montar"></div></section>
+        <aside class="bloco agenda" aria-label="Sua semana">
+          <h2 class="h2">Sua semana</h2>
+          <p class="sub" id="agenda-s"></p>
+          <div id="agenda"></div>
+        </aside>
+      </div>
+      <div class="barra-fixa" id="barra"></div>
+    </section>
+
+    <!-- 3 ----------------------------------------------------------------->
+    <section id="v-falta" class="vista oculto">
+      <header class="cab">
+        <h1 class="h1">O que ainda falta?</h1>
+        <p class="resumo" id="r-falta"></p>
+      </header>
+      <section class="bloco" id="progresso"></section>
+      <div id="fonte-falta"></div>
+
+      <section>
+        <div class="sec-cab">
+          <h2 class="h2" id="h-cursando">Cursando agora</h2>
+          <p class="sub">Já matriculadas. O plano conta estas como aprovadas.</p>
+        </div>
+        <div class="bloco rola"><div id="t-cursando"></div></div>
+      </section>
+
+      <section>
+        <div class="sec-cab">
+          <h2 class="h2" id="h-faltam">Obrigatórias que faltam</h2>
+          <p class="sub">Fila: sua prioridade na vaga (Resolução CAE 02/2017), conta em
+            <a href="#conta" class="link" data-ir="conta">Como a conta é feita</a>.</p>
+        </div>
+        <div class="bloco rola"><div id="t-faltam"></div></div>
+      </section>
+
+      <section>
+        <div class="sec-cab">
+          <h2 class="h2" id="h-optativas">Optativas ofertadas para você</h2>
+          <p class="sub" id="s-optativas"></p>
+        </div>
+        <div class="bloco rola"><div id="t-optativas"></div></div>
+      </section>
+    </section>
+
+    <!-- 4 ----------------------------------------------------------------->
+    <section id="v-conta" class="vista oculto">
+      <header class="cab">
+        <h1 class="h1">Como a conta é feita?</h1>
+        <p class="resumo">Cada número com o <b>valor de agora</b>, <b>de onde vem</b>
+          e <b>qual função usa</b>.</p>
+      </header>
+      <nav class="atalhos" aria-label="Partes desta tela">
+        <button type="button" class="btn-ghost" data-rola="variaveis">As variáveis</button>
+        <button type="button" class="btn-ghost" data-rola="grupos">k-médias</button>
+        <button type="button" class="btn-ghost" data-rola="cooferta">apriori</button>
+        <button type="button" class="btn-ghost" data-rola="fila">Fila da vaga</button>
+      </nav>
+
+      <section>
+        <div class="sec-cab">
+          <h2 class="h2">As variáveis</h2>
+
+        </div>
+        <div class="bloco" id="variaveis"></div>
+        <div class="volta"><button type="button" class="btn-ghost" data-rola="topo">↑ Voltar ao topo</button></div>
+      </section>
+
+      <section id="grupos">
+        <div class="sec-cab">
+          <h2 class="h2">Por onde começar · agrupamento (k-médias)</h2>
+          <p class="sub">Entrada: 4 variáveis por obrigatória. Saída: grupos e a silhueta.</p>
+        </div>
+        <div class="bloco" id="b-grupos"></div>
+        <div class="volta"><button type="button" class="btn-ghost" data-rola="topo">↑ Voltar ao topo</button></div>
+      </section>
+
+      <section id="cooferta">
+        <div class="sec-cab">
+          <h2 class="h2">O que costuma abrir junto · associação (apriori)</h2>
+          <p class="sub">Dá para pôr as duas no mesmo semestre? Entrada: em que semestres cada uma abriu.</p>
+        </div>
+        <div class="bloco" id="b-cooferta"></div>
+        <div class="volta"><button type="button" class="btn-ghost" data-rola="topo">↑ Voltar ao topo</button></div>
+      </section>
+
+      <section id="fila">
+        <div class="sec-cab">
+          <h2 class="h2">A fila da vaga · Resolução CAE 02/2017</h2>
+          <p class="sub">Pré-requisito cumprido não garante vaga: a UFBA ordena os pedidos em seis níveis.</p>
+        </div>
+        <div class="bloco" id="b-fila"></div>
+        <div class="volta"><button type="button" class="btn-ghost" data-rola="topo">↑ Voltar ao topo</button></div>
+      </section>
+    </section>
+
+    <!-- 5 ----------------------------------------------------------------->
+    <section id="v-relatorio" class="vista oculto">
+      <header class="cab rel-topo">
+        <div>
+          <h1 class="h1">Relatório da sua situação</h1>
+          <p class="resumo" id="r-relatorio"></p>
+        </div>
+        <button class="primario rel-imprimir" id="btn-imprimir" type="button">
+          Imprimir ou salvar em PDF</button>
+      </header>
+      <div id="relatorio" class="relatorio"></div>
+    </section>
+  </main>
+</div>
+
+<button type="button" class="topo oculto" id="btn-topo" aria-label="Voltar ao topo, onde fica o menu">↑ Topo</button>
+
+<script src="/assets/app.js?v=610dc5c1"></script>
+</body>
+</html>

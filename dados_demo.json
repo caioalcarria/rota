@@ -1,0 +1,7074 @@
+{
+ "me": {
+  "nome": "ALUNO DEMONSTRAÇÃO",
+  "nome_abreviado": "ALUNO DEMONSTRAÇÃO",
+  "matricula": "000000000",
+  "curso": {
+   "texto": "CIÊNCIA DA COMPUTAÇÃO/IC/UFBA - SALVADOR - BACHARELADO - MT",
+   "nome": "CIÊNCIA DA COMPUTAÇÃO",
+   "unidade_sigla": "IC",
+   "instituicao": "UFBA",
+   "municipio": "SALVADOR",
+   "grau": "BACHARELADO",
+   "turno": "MT"
+  },
+  "nivel": "GRADUAÇÃO",
+  "status": "ATIVO",
+  "entrada": "2023.1",
+  "unidade": "INSTITUTO DE COMPUTAÇÃO",
+  "unidade_codigo": "12.28",
+  "semestre_atual": "2026.2",
+  "campos_extras": {},
+  "integralizacao": {
+   "ch_obrigatoria_pendente": 811,
+   "ch_optativa_pendente": 480,
+   "ch_complementar_pendente": 220,
+   "ch_total_curriculo": 3296,
+   "percentual": 54.16,
+   "percentual_arredondado": 54,
+   "outros": {}
+  }
+ },
+ "integ": {
+  "curriculo": "G20251X - 2025.2",
+  "percentual": 54.16,
+  "carga_horaria": [
+   {
+    "categoria": "Obrigatórias",
+    "exigido": 2236,
+    "integralizado": 1425,
+    "pendente": 811
+   },
+   {
+    "categoria": "Optativos",
+    "exigido": 630,
+    "integralizado": 150,
+    "pendente": 480
+   },
+   {
+    "categoria": "Complementares",
+    "exigido": 430,
+    "integralizado": 210,
+    "pendente": 220
+   },
+   {
+    "categoria": "Total",
+    "exigido": 3296,
+    "integralizado": 1785,
+    "pendente": 1511
+   }
+  ],
+  "obrigatorios_pendentes": [
+   {
+    "codigo": "MAT236",
+    "nome": "MÉTODOS ESTATÍSTICOS",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA50",
+    "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA52",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+    "carga_horaria": 60,
+    "matriculado": true
+   },
+   {
+    "codigo": "MATA61",
+    "nome": "COMPILADORES",
+    "carga_horaria": 60,
+    "matriculado": true
+   },
+   {
+    "codigo": "MATA53",
+    "nome": "TEORIA DOS GRAFOS",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA54",
+    "nome": "ESTRUTURAS DE DADOS E ALGORITMOS II",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATE12",
+    "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO A",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA60",
+    "nome": "BANCO DE DADOS",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA64",
+    "nome": "INTELIGÊNCIA ARTIFICIAL",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA88",
+    "nome": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS",
+    "carga_horaria": 45,
+    "matriculado": true
+   },
+   {
+    "codigo": "MATE11",
+    "nome": "ENGENHARIA DE SOFTWARE II-A",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "GICC0001",
+    "nome": "PROJETO FINAL DE CURSO I",
+    "carga_horaria": 45,
+    "matriculado": false
+   },
+   {
+    "codigo": "GICC0002",
+    "nome": "PROJETO FINAL DE CURSO II",
+    "carga_horaria": 120,
+    "matriculado": false
+   },
+   {
+    "codigo": "GICC0006",
+    "nome": "COMPONENTE DE HOMOLOGAÇÃO DE EXTENSÃO CURRICULAR",
+    "carga_horaria": 1,
+    "matriculado": false
+   },
+   {
+    "codigo": "ENADE",
+    "nome": "ENADE INGRESSANTE PENDENTE",
+    "carga_horaria": 0,
+    "matriculado": false
+   },
+   {
+    "codigo": "ENADE",
+    "nome": "ENADE CONCLUINTE PENDENTE",
+    "carga_horaria": 0,
+    "matriculado": false
+   }
+  ],
+  "atividades_autonomas": [
+   {
+    "categoria": "ATIVIDADES DE PESQUISA",
+    "carga_horaria": 120.0
+   },
+   {
+    "categoria": "EXTENSÃO CURRICULAR",
+    "carga_horaria": 90.0
+   }
+  ],
+  "carga_horaria_extensionista": [],
+  "periodo_letivo_atual": 7,
+  "prazo_conclusao_padrao": "2027.1",
+  "prazo_conclusao_maximo": "2029.1"
+ },
+ "idx": {
+  "oficiais": {
+   "cr": 6.2591,
+   "iap": 0.6863,
+   "outros": {}
+  },
+  "cr_calculado": 6.2591,
+  "iap_calculado": 0.6863,
+  "calculo_confere_com_oficial": true,
+  "evolucao": [
+   {
+    "periodo": "2023.1",
+    "componentes": 6,
+    "carga_horaria": 375,
+    "carga_horaria_aprovada": 285,
+    "aprovados": 5,
+    "reprovados": 1,
+    "trancados": 0,
+    "cursando": 0,
+    "cr_periodo": 6.384,
+    "cr_acumulado": 6.384,
+    "iap_acumulado": 0.76
+   },
+   {
+    "periodo": "2023.2",
+    "componentes": 6,
+    "carga_horaria": 375,
+    "carga_horaria_aprovada": 315,
+    "aprovados": 5,
+    "reprovados": 1,
+    "trancados": 0,
+    "cursando": 0,
+    "cr_periodo": 6.212,
+    "cr_acumulado": 6.298,
+    "iap_acumulado": 0.8
+   },
+   {
+    "periodo": "2024.1",
+    "componentes": 6,
+    "carga_horaria": 390,
+    "carga_horaria_aprovada": 270,
+    "aprovados": 4,
+    "reprovados": 2,
+    "trancados": 0,
+    "cursando": 0,
+    "cr_periodo": 5.4923,
+    "cr_acumulado": 6.0224,
+    "iap_acumulado": 0.7632
+   },
+   {
+    "periodo": "2024.2",
+    "componentes": 5,
+    "carga_horaria": 315,
+    "carga_horaria_aprovada": 255,
+    "aprovados": 4,
+    "reprovados": 0,
+    "trancados": 1,
+    "cursando": 0,
+    "cr_periodo": 6.9294,
+    "cr_acumulado": 6.1882,
+    "iap_acumulado": 0.7732
+   },
+   {
+    "periodo": "2025.1",
+    "componentes": 4,
+    "carga_horaria": 270,
+    "carga_horaria_aprovada": 0,
+    "aprovados": 0,
+    "reprovados": 0,
+    "trancados": 4,
+    "cursando": 0,
+    "cr_periodo": null,
+    "cr_acumulado": 6.1882,
+    "iap_acumulado": 0.6522
+   },
+   {
+    "periodo": "2025.2",
+    "componentes": 5,
+    "carga_horaria": 330,
+    "carga_horaria_aprovada": 210,
+    "aprovados": 3,
+    "reprovados": 2,
+    "trancados": 0,
+    "cursando": 0,
+    "cr_periodo": 5.7,
+    "cr_acumulado": 6.109,
+    "iap_acumulado": 0.6496
+   },
+   {
+    "periodo": "2026.1",
+    "componentes": 4,
+    "carga_horaria": 240,
+    "carga_horaria_aprovada": 240,
+    "aprovados": 4,
+    "reprovados": 0,
+    "trancados": 0,
+    "cursando": 0,
+    "cr_periodo": 7.3,
+    "cr_acumulado": 6.2591,
+    "iap_acumulado": 0.6863
+   },
+   {
+    "periodo": "2026.2",
+    "componentes": 4,
+    "carga_horaria": 225,
+    "carga_horaria_aprovada": 0,
+    "aprovados": 0,
+    "reprovados": 0,
+    "trancados": 0,
+    "cursando": 4,
+    "cr_periodo": null,
+    "cr_acumulado": 6.2591,
+    "iap_acumulado": 0.6863
+   }
+  ]
+ },
+ "historico": {
+  "instituicao": "UFBA - Universidade Federal da Bahia",
+  "emitido_em": "2026-11-10T09:00:00",
+  "dados_pessoais": {
+   "nome": "ALUNO DEMONSTRAÇÃO",
+   "matricula": "000000000"
+  },
+  "vinculo": {
+   "curso": "CIÊNCIA DA COMPUTAÇÃO/IC/UFBA - SALVADOR - BACHARELADO - PRESENCIAL - MT",
+   "status": "ATIVO",
+   "enfase": null,
+   "curriculo": "G20251X - 2025.2",
+   "reconhecimento_curso": null,
+   "ingresso_periodo": "2023.1",
+   "ingresso_data": null,
+   "perfil_inicial": 0,
+   "forma_ingresso": "Sisu",
+   "periodo_letivo_atual": 7,
+   "prazo_conclusao_padrao": "2027.1",
+   "prazo_conclusao_maximo": "2029.1",
+   "suspensoes": [
+    "2025.1"
+   ],
+   "prorrogacoes": null,
+   "conclusao": null,
+   "tipo_saida": null,
+   "data_conclusao": null,
+   "data_colacao_grau": null,
+   "trabalho_conclusao_curso": null,
+   "data_expedicao_diploma": null,
+   "campos_extras": {}
+  },
+  "indices": {
+   "cr": 6.2591,
+   "iap": 0.6863,
+   "outros": {}
+  },
+  "componentes": [
+   {
+    "periodo": "2023.1",
+    "codigo": "MATA01",
+    "nome": "GEOMETRIA ANALÍTICA",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 7.2,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 01",
+      "titulo": null,
+      "carga_horaria": 30
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.1",
+    "codigo": "MATA02",
+    "nome": "CÁLCULO A",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 90,
+    "nota": 3.4,
+    "frequencia": null,
+    "situacao": "REP",
+    "situacao_descricao": "Reprovado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 03",
+      "titulo": null,
+      "carga_horaria": 90
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.1",
+    "codigo": "MATA37",
+    "nome": "INTRODUÇÃO À LÓGICA DE PROGRAMAÇÃO",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 8.1,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 04",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.1",
+    "codigo": "MATA38",
+    "nome": "PROJETO DE CIRCUITOS LÓGICOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.9,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 05",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.1",
+    "codigo": "MATA39",
+    "nome": "SEMINÁRIOS DE INTRODUÇÃO AO CURSO",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 45,
+    "nota": 8.8,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 06",
+      "titulo": null,
+      "carga_horaria": 45
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.1",
+    "codigo": "MATA42",
+    "nome": "MATEMÁTICA DISCRETA I",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.0,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 07",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.2",
+    "codigo": "MATA02",
+    "nome": "CÁLCULO A",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 90,
+    "nota": 5.8,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 08",
+      "titulo": null,
+      "carga_horaria": 90
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.2",
+    "codigo": "MATA07",
+    "nome": "ÁLGEBRA LINEAR A",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.4,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 09",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.2",
+    "codigo": "MATA40",
+    "nome": "ESTRUTURAS DE DADOS E ALGORITMOS I",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 4.2,
+    "frequencia": null,
+    "situacao": "REP",
+    "situacao_descricao": "Reprovado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 10",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.2",
+    "codigo": "MATA48",
+    "nome": "ARQUITETURA DE COMPUTADORES",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 7.0,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 11",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.2",
+    "codigo": "MATA57",
+    "nome": "LABORATÓRIO DE PROGRAMAÇÃO I",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 45,
+    "nota": 7.9,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 12",
+      "titulo": null,
+      "carga_horaria": 30
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2023.2",
+    "codigo": "MATA97",
+    "nome": "MATEMÁTICA DISCRETA II",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.6,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 14",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.1",
+    "codigo": "MATA40",
+    "nome": "ESTRUTURAS DE DADOS E ALGORITMOS I",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.3,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 10",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.1",
+    "codigo": "MATA95",
+    "nome": "COMPLEMENTOS DE CÁLCULO",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 90,
+    "nota": 5.2,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 15",
+      "titulo": null,
+      "carga_horaria": 90
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.1",
+    "codigo": "MATA50",
+    "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 4.1,
+    "frequencia": null,
+    "situacao": "REP",
+    "situacao_descricao": "Reprovado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 16",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.1",
+    "codigo": "MATA47",
+    "nome": "LÓGICA PARA COMPUTAÇÃO",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.0,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 17",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.1",
+    "codigo": "MAT236",
+    "nome": "MÉTODOS ESTATÍSTICOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 3.8,
+    "frequencia": null,
+    "situacao": "REP",
+    "situacao_descricao": "Reprovado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 18",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.1",
+    "codigo": "MATA55",
+    "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 7.7,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 13",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.2",
+    "codigo": "MATA49",
+    "nome": "PROGRAMAÇÃO DE SOFTWARE BÁSICO",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.1,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 19",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.2",
+    "codigo": "MATA52",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "TRANC",
+    "situacao_descricao": "Trancado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 20",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.2",
+    "codigo": "MATA62",
+    "nome": "ENGENHARIA DE SOFTWARE I",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 7.0,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 21",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.2",
+    "codigo": "MATA68",
+    "nome": "COMPUTADOR, ÉTICA E SOCIEDADE",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 45,
+    "nota": 8.4,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 22",
+      "titulo": null,
+      "carga_horaria": 45
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2024.2",
+    "codigo": "MATA03",
+    "nome": "CÁLCULO B",
+    "natureza": "OP",
+    "natureza_descricao": "Optativo",
+    "carga_horaria": 90,
+    "nota": 6.7,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 23",
+      "titulo": null,
+      "carga_horaria": 90
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.1",
+    "codigo": "MATA52",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "TRANC",
+    "situacao_descricao": "Trancado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 20",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.1",
+    "codigo": "MATA58",
+    "nome": "SISTEMAS OPERACIONAIS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "TRANC",
+    "situacao_descricao": "Trancado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 24",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.1",
+    "codigo": "FISA75",
+    "nome": "ELEMENTOS DO ELETROMAGNETISMO E DE CIRCUITOS ELÉTRICOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 90,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "TRANC",
+    "situacao_descricao": "Trancado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 25",
+      "titulo": null,
+      "carga_horaria": 30
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.1",
+    "codigo": "MATA51",
+    "nome": "TEORIA DA COMPUTAÇÃO",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "TRANC",
+    "situacao_descricao": "Trancado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 16",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.2",
+    "codigo": "MATA58",
+    "nome": "SISTEMAS OPERACIONAIS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.8,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 24",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.2",
+    "codigo": "FISA75",
+    "nome": "ELEMENTOS DO ELETROMAGNETISMO E DE CIRCUITOS ELÉTRICOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 90,
+    "nota": 5.5,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 25",
+      "titulo": null,
+      "carga_horaria": 30
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.2",
+    "codigo": "MATA51",
+    "nome": "TEORIA DA COMPUTAÇÃO",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.2,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 16",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.2",
+    "codigo": "MATA52",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 4.4,
+    "frequencia": null,
+    "situacao": "REP",
+    "situacao_descricao": "Reprovado",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 20",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2025.2",
+    "codigo": "MATA61",
+    "nome": "COMPILADORES",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 0.0,
+    "frequencia": null,
+    "situacao": "REPF",
+    "situacao_descricao": "Reprovado por Falta",
+    "aprovado": false,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 26",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2026.1",
+    "codigo": "MATA59",
+    "nome": "REDES DE COMPUTADORES I",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 7.1,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 27",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2026.1",
+    "codigo": "MATA65",
+    "nome": "COMPUTAÇÃO GRÁFICA",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 6.4,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 28",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2026.1",
+    "codigo": "FCHC45",
+    "nome": "METODOLOGIA E EXPRESSÃO TÉCNICO-CIENTÍFICA",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": 7.5,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 29",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2026.1",
+    "codigo": "MATA77",
+    "nome": "PROGRAMAÇÃO FUNCIONAL",
+    "natureza": "OP",
+    "natureza_descricao": "Optativo",
+    "carga_horaria": 60,
+    "nota": 8.2,
+    "frequencia": null,
+    "situacao": "APR",
+    "situacao_descricao": "Aprovado",
+    "aprovado": true,
+    "cursando": false,
+    "docentes": [
+     {
+      "nome": "DOCENTE 30",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2026.2",
+    "codigo": "MATA52",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "MATR",
+    "situacao_descricao": "Matriculado",
+    "aprovado": false,
+    "cursando": true,
+    "docentes": [
+     {
+      "nome": "DOCENTE 20",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2026.2",
+    "codigo": "MATA61",
+    "nome": "COMPILADORES",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 60,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "MATR",
+    "situacao_descricao": "Matriculado",
+    "aprovado": false,
+    "cursando": true,
+    "docentes": [
+     {
+      "nome": "DOCENTE 31",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2026.2",
+    "codigo": "MATA88",
+    "nome": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS",
+    "natureza": "OB",
+    "natureza_descricao": "Obrigatório",
+    "carga_horaria": 45,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "MATR",
+    "situacao_descricao": "Matriculado",
+    "aprovado": false,
+    "cursando": true,
+    "docentes": [
+     {
+      "nome": "DOCENTE 32",
+      "titulo": null,
+      "carga_horaria": 45
+     }
+    ],
+    "marcadores": []
+   },
+   {
+    "periodo": "2026.2",
+    "codigo": "MATB32",
+    "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+    "natureza": "OP",
+    "natureza_descricao": "Optativo",
+    "carga_horaria": 60,
+    "nota": null,
+    "frequencia": null,
+    "situacao": "MATR",
+    "situacao_descricao": "Matriculado",
+    "aprovado": false,
+    "cursando": true,
+    "docentes": [
+     {
+      "nome": "DOCENTE 33",
+      "titulo": null,
+      "carga_horaria": 60
+     }
+    ],
+    "marcadores": []
+   }
+  ],
+  "atividades_autonomas": [
+   {
+    "categoria": "ATIVIDADES DE PESQUISA",
+    "carga_horaria": 120.0
+   },
+   {
+    "categoria": "EXTENSÃO CURRICULAR",
+    "carga_horaria": 90.0
+   }
+  ],
+  "carga_horaria": [
+   {
+    "categoria": "Obrigatórias",
+    "exigido": 2236,
+    "integralizado": 1425,
+    "pendente": 811
+   },
+   {
+    "categoria": "Optativos",
+    "exigido": 630,
+    "integralizado": 150,
+    "pendente": 480
+   },
+   {
+    "categoria": "Complementares",
+    "exigido": 430,
+    "integralizado": 210,
+    "pendente": 220
+   },
+   {
+    "categoria": "Total",
+    "exigido": 3296,
+    "integralizado": 1785,
+    "pendente": 1511
+   }
+  ],
+  "carga_horaria_extensionista": [],
+  "obrigatorios_pendentes": [
+   {
+    "codigo": "MAT236",
+    "nome": "MÉTODOS ESTATÍSTICOS",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA50",
+    "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA52",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+    "carga_horaria": 60,
+    "matriculado": true
+   },
+   {
+    "codigo": "MATA61",
+    "nome": "COMPILADORES",
+    "carga_horaria": 60,
+    "matriculado": true
+   },
+   {
+    "codigo": "MATA53",
+    "nome": "TEORIA DOS GRAFOS",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA54",
+    "nome": "ESTRUTURAS DE DADOS E ALGORITMOS II",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATE12",
+    "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO A",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA60",
+    "nome": "BANCO DE DADOS",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA64",
+    "nome": "INTELIGÊNCIA ARTIFICIAL",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "MATA88",
+    "nome": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS",
+    "carga_horaria": 45,
+    "matriculado": true
+   },
+   {
+    "codigo": "MATE11",
+    "nome": "ENGENHARIA DE SOFTWARE II-A",
+    "carga_horaria": 60,
+    "matriculado": false
+   },
+   {
+    "codigo": "GICC0001",
+    "nome": "PROJETO FINAL DE CURSO I",
+    "carga_horaria": 45,
+    "matriculado": false
+   },
+   {
+    "codigo": "GICC0002",
+    "nome": "PROJETO FINAL DE CURSO II",
+    "carga_horaria": 120,
+    "matriculado": false
+   },
+   {
+    "codigo": "GICC0006",
+    "nome": "COMPONENTE DE HOMOLOGAÇÃO DE EXTENSÃO CURRICULAR",
+    "carga_horaria": 1,
+    "matriculado": false
+   },
+   {
+    "codigo": "ENADE",
+    "nome": "ENADE INGRESSANTE PENDENTE",
+    "carga_horaria": 0,
+    "matriculado": false
+   },
+   {
+    "codigo": "ENADE",
+    "nome": "ENADE CONCLUINTE PENDENTE",
+    "carga_horaria": 0,
+    "matriculado": false
+   }
+  ],
+  "total_obrigatorios_pendentes": 14,
+  "equivalencias": [],
+  "observacoes": [
+   "Trancamento Total Inscricao Disciplinas no período letivo 2025.1"
+  ],
+  "legenda": {
+   "naturezas": {
+    "OP": "Optativo",
+    "EB": "Equivalente Obrigatório",
+    "EP": "Equivalente a Optativo",
+    "LV": "Livre",
+    "OB": "Obrigatório",
+    "EC": "Equivalente a Complementar"
+   },
+   "situacoes": {
+    "APR": "Aprovado",
+    "CANC": "Cancelado",
+    "DISP": "Dispensado",
+    "MATR": "Matriculado",
+    "REP": "Reprovado",
+    "REPF": "Reprovado por Falta",
+    "TRANC": "Trancado"
+   }
+  },
+  "estatisticas": {
+   "por_periodo": [
+    {
+     "periodo": "2023.1",
+     "componentes": 6,
+     "carga_horaria": 375,
+     "carga_horaria_aprovada": 285,
+     "aprovados": 5,
+     "reprovados": 1,
+     "trancados": 0,
+     "cursando": 0,
+     "cr_periodo": 6.384,
+     "cr_acumulado": 6.384,
+     "iap_acumulado": 0.76
+    },
+    {
+     "periodo": "2023.2",
+     "componentes": 6,
+     "carga_horaria": 375,
+     "carga_horaria_aprovada": 315,
+     "aprovados": 5,
+     "reprovados": 1,
+     "trancados": 0,
+     "cursando": 0,
+     "cr_periodo": 6.212,
+     "cr_acumulado": 6.298,
+     "iap_acumulado": 0.8
+    },
+    {
+     "periodo": "2024.1",
+     "componentes": 6,
+     "carga_horaria": 390,
+     "carga_horaria_aprovada": 270,
+     "aprovados": 4,
+     "reprovados": 2,
+     "trancados": 0,
+     "cursando": 0,
+     "cr_periodo": 5.4923,
+     "cr_acumulado": 6.0224,
+     "iap_acumulado": 0.7632
+    },
+    {
+     "periodo": "2024.2",
+     "componentes": 5,
+     "carga_horaria": 315,
+     "carga_horaria_aprovada": 255,
+     "aprovados": 4,
+     "reprovados": 0,
+     "trancados": 1,
+     "cursando": 0,
+     "cr_periodo": 6.9294,
+     "cr_acumulado": 6.1882,
+     "iap_acumulado": 0.7732
+    },
+    {
+     "periodo": "2025.1",
+     "componentes": 4,
+     "carga_horaria": 270,
+     "carga_horaria_aprovada": 0,
+     "aprovados": 0,
+     "reprovados": 0,
+     "trancados": 4,
+     "cursando": 0,
+     "cr_periodo": null,
+     "cr_acumulado": 6.1882,
+     "iap_acumulado": 0.6522
+    },
+    {
+     "periodo": "2025.2",
+     "componentes": 5,
+     "carga_horaria": 330,
+     "carga_horaria_aprovada": 210,
+     "aprovados": 3,
+     "reprovados": 2,
+     "trancados": 0,
+     "cursando": 0,
+     "cr_periodo": 5.7,
+     "cr_acumulado": 6.109,
+     "iap_acumulado": 0.6496
+    },
+    {
+     "periodo": "2026.1",
+     "componentes": 4,
+     "carga_horaria": 240,
+     "carga_horaria_aprovada": 240,
+     "aprovados": 4,
+     "reprovados": 0,
+     "trancados": 0,
+     "cursando": 0,
+     "cr_periodo": 7.3,
+     "cr_acumulado": 6.2591,
+     "iap_acumulado": 0.6863
+    },
+    {
+     "periodo": "2026.2",
+     "componentes": 4,
+     "carga_horaria": 225,
+     "carga_horaria_aprovada": 0,
+     "aprovados": 0,
+     "reprovados": 0,
+     "trancados": 0,
+     "cursando": 4,
+     "cr_periodo": null,
+     "cr_acumulado": 6.2591,
+     "iap_acumulado": 0.6863
+    }
+   ],
+   "total_componentes": 40,
+   "total_aprovados": 25,
+   "total_reprovados": 6,
+   "total_trancados": 5,
+   "total_cursando": 4,
+   "carga_horaria_aprovada": 1575,
+   "cr_calculado": 6.2591,
+   "iap_calculado": 0.6863,
+   "calculo_confere_com_oficial": true,
+   "taxa_aprovacao": 0.8065
+  },
+  "linhas_nao_reconhecidas": []
+ },
+ "grade": {
+  "periodo": "2026.2",
+  "data_inicio": "2026-08-19",
+  "data_fim": "2026-12-19",
+  "dias": [
+   {
+    "dia": 2,
+    "dia_nome": "Segunda",
+    "aulas": [
+     {
+      "dia": 2,
+      "dia_nome": "Segunda",
+      "inicio": "14:50",
+      "fim": "16:40",
+      "turno": "T",
+      "codigos": [
+       "T3",
+       "T4"
+      ],
+      "turma_id": null,
+      "codigo": "MATB32",
+      "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+      "turma": "01",
+      "local": "PAF 1 - 109"
+     },
+     {
+      "dia": 2,
+      "dia_nome": "Segunda",
+      "inicio": "16:40",
+      "fim": "18:30",
+      "turno": "T",
+      "codigos": [
+       "T5",
+       "T6"
+      ],
+      "turma_id": null,
+      "codigo": "MATA61",
+      "nome": "COMPILADORES",
+      "turma": "01",
+      "local": "PAF 1 - 006"
+     }
+    ]
+   },
+   {
+    "dia": 3,
+    "dia_nome": "Terça",
+    "aulas": [
+     {
+      "dia": 3,
+      "dia_nome": "Terça",
+      "inicio": "14:50",
+      "fim": "16:40",
+      "turno": "T",
+      "codigos": [
+       "T3",
+       "T4"
+      ],
+      "turma_id": null,
+      "codigo": "MATA52",
+      "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+      "turma": "01",
+      "local": "PAF 1 - 005"
+     }
+    ]
+   },
+   {
+    "dia": 4,
+    "dia_nome": "Quarta",
+    "aulas": [
+     {
+      "dia": 4,
+      "dia_nome": "Quarta",
+      "inicio": "14:50",
+      "fim": "16:40",
+      "turno": "T",
+      "codigos": [
+       "T3",
+       "T4"
+      ],
+      "turma_id": null,
+      "codigo": "MATB32",
+      "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+      "turma": "01",
+      "local": "PAF 1 - 109"
+     },
+     {
+      "dia": 4,
+      "dia_nome": "Quarta",
+      "inicio": "18:30",
+      "fim": "21:15",
+      "turno": "N",
+      "codigos": [
+       "N1",
+       "N2",
+       "N3"
+      ],
+      "turma_id": null,
+      "codigo": "MATA88",
+      "nome": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS",
+      "turma": "01",
+      "local": "PAF 1 - 213"
+     }
+    ]
+   },
+   {
+    "dia": 5,
+    "dia_nome": "Quinta",
+    "aulas": [
+     {
+      "dia": 5,
+      "dia_nome": "Quinta",
+      "inicio": "14:50",
+      "fim": "16:40",
+      "turno": "T",
+      "codigos": [
+       "T3",
+       "T4"
+      ],
+      "turma_id": null,
+      "codigo": "MATA52",
+      "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+      "turma": "01",
+      "local": "PAF 1 - 005"
+     }
+    ]
+   }
+  ],
+  "aulas": [
+   {
+    "dia": 2,
+    "dia_nome": "Segunda",
+    "inicio": "14:50",
+    "fim": "16:40",
+    "turno": "T",
+    "codigos": [
+     "T3",
+     "T4"
+    ],
+    "turma_id": null,
+    "codigo": "MATB32",
+    "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+    "turma": "01",
+    "local": "PAF 1 - 109"
+   },
+   {
+    "dia": 2,
+    "dia_nome": "Segunda",
+    "inicio": "16:40",
+    "fim": "18:30",
+    "turno": "T",
+    "codigos": [
+     "T5",
+     "T6"
+    ],
+    "turma_id": null,
+    "codigo": "MATA61",
+    "nome": "COMPILADORES",
+    "turma": "01",
+    "local": "PAF 1 - 006"
+   },
+   {
+    "dia": 3,
+    "dia_nome": "Terça",
+    "inicio": "14:50",
+    "fim": "16:40",
+    "turno": "T",
+    "codigos": [
+     "T3",
+     "T4"
+    ],
+    "turma_id": null,
+    "codigo": "MATA52",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+    "turma": "01",
+    "local": "PAF 1 - 005"
+   },
+   {
+    "dia": 4,
+    "dia_nome": "Quarta",
+    "inicio": "14:50",
+    "fim": "16:40",
+    "turno": "T",
+    "codigos": [
+     "T3",
+     "T4"
+    ],
+    "turma_id": null,
+    "codigo": "MATB32",
+    "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+    "turma": "01",
+    "local": "PAF 1 - 109"
+   },
+   {
+    "dia": 4,
+    "dia_nome": "Quarta",
+    "inicio": "18:30",
+    "fim": "21:15",
+    "turno": "N",
+    "codigos": [
+     "N1",
+     "N2",
+     "N3"
+    ],
+    "turma_id": null,
+    "codigo": "MATA88",
+    "nome": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS",
+    "turma": "01",
+    "local": "PAF 1 - 213"
+   },
+   {
+    "dia": 5,
+    "dia_nome": "Quinta",
+    "inicio": "14:50",
+    "fim": "16:40",
+    "turno": "T",
+    "codigos": [
+     "T3",
+     "T4"
+    ],
+    "turma_id": null,
+    "codigo": "MATA52",
+    "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+    "turma": "01",
+    "local": "PAF 1 - 005"
+   }
+  ],
+  "conflitos": [],
+  "sem_horario": []
+ },
+ "plano": {
+  "ano": 2026,
+  "periodo": 2,
+  "curso": "CIÊNCIA DA COMPUTAÇÃO/IC/UFBA - SALVADOR - BACHARELADO - PRESENCIAL - MT",
+  "considerou_cursando_como_aprovado": true,
+  "ch_maxima_periodo": 540,
+  "ch_pendente": [
+   {
+    "categoria": "Obrigatórias",
+    "exigido": 2236,
+    "integralizado": 1425,
+    "pendente": 811
+   },
+   {
+    "categoria": "Optativos",
+    "exigido": 630,
+    "integralizado": 150,
+    "pendente": 480
+   },
+   {
+    "categoria": "Complementares",
+    "exigido": 430,
+    "integralizado": 210,
+    "pendente": 220
+   },
+   {
+    "categoria": "Total",
+    "exigido": 3296,
+    "integralizado": 1785,
+    "pendente": 1511
+   }
+  ],
+  "candidatos": [
+   {
+    "codigo": "MAT236",
+    "nome": "MÉTODOS ESTATÍSTICOS",
+    "componente_id": 44610,
+    "carga_horaria": 60,
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 3,
+    "atrasado": true,
+    "pre_requisitos": "(MATA03) OU (MATA02) OU (MATA01 E MATA42) OU (MATA02 E MATA07) OU (MATA42 E MATA95) OU (MATA07)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATA69"
+    ],
+    "reprovacoes_anteriores": 1,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 34"
+      ],
+      "horario_codigo": "24T34",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "PAF 1 - 006",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "02",
+      "docentes": [
+       "DOCENTE 35"
+      ],
+      "horario_codigo": "35M12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       }
+      ],
+      "local": "PAF 1 - 208",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "03",
+      "docentes": [
+       "DOCENTE 36"
+      ],
+      "horario_codigo": "35M34",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       }
+      ],
+      "local": "PAF 1 - 216",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "04",
+      "docentes": [
+       "DOCENTE 37"
+      ],
+      "horario_codigo": "35M56",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       }
+      ],
+      "local": "PAF 1 - 022",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "05",
+      "docentes": [
+       "DOCENTE 38"
+      ],
+      "horario_codigo": "35T34",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "PAF 1 - 105",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "06",
+      "docentes": [
+       "DOCENTE 39"
+      ],
+      "horario_codigo": "35N34",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       }
+      ],
+      "local": "PAF 1 - 213",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "07",
+      "docentes": [
+       "DOCENTE 39"
+      ],
+      "horario_codigo": "46N12",
+      "horarios": [
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 101",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA50",
+    "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+    "componente_id": 44720,
+    "carga_horaria": 60,
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 3,
+    "atrasado": true,
+    "pre_requisitos": "(MATA42)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATA74"
+    ],
+    "reprovacoes_anteriores": 1,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 17"
+      ],
+      "horario_codigo": "35T12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 1,
+        "inicio": "13:00",
+        "fim": "13:55"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 2,
+        "inicio": "13:55",
+        "fim": "14:50"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 1,
+        "inicio": "13:00",
+        "fim": "13:55"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 2,
+        "inicio": "13:55",
+        "fim": "14:50"
+       }
+      ],
+      "local": "PAF 1 - 210",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATE12",
+    "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO A",
+    "componente_id": 45231,
+    "carga_horaria": 60,
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "atrasado": true,
+    "pre_requisitos": "(MATA55)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATA64",
+     "MATA75",
+     "MATA79"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 42"
+      ],
+      "horario_codigo": "2T56",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 5,
+        "inicio": "16:40",
+        "fim": "17:35"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 6,
+        "inicio": "17:35",
+        "fim": "18:30"
+       }
+      ],
+      "local": "PAF 1 - 022",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA54",
+    "nome": "ESTRUTURAS DE DADOS E ALGORITMOS II",
+    "componente_id": 44728,
+    "carga_horaria": 60,
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "atrasado": true,
+    "pre_requisitos": "(MATA52)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATA60",
+     "MATA79"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 41"
+      ],
+      "horario_codigo": "2T34",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "COM - 3",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA53",
+    "nome": "TEORIA DOS GRAFOS",
+    "componente_id": 44726,
+    "carga_horaria": 60,
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "atrasado": true,
+    "pre_requisitos": "(MATA52) OU (MATB35 E MATB38)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATA64"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 40"
+      ],
+      "horario_codigo": "35T34",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "PAF 1 - 210",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATE11",
+    "nome": "ENGENHARIA DE SOFTWARE II-A",
+    "componente_id": 45229,
+    "carga_horaria": 60,
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "atrasado": true,
+    "pre_requisitos": "(MATA62)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATB02",
+     "MATB03",
+     "MATB14",
+     "MATB15",
+     "MATB25"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 45"
+      ],
+      "horario_codigo": "4T56",
+      "horarios": [
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 5,
+        "inicio": "16:40",
+        "fim": "17:35"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 6,
+        "inicio": "17:35",
+        "fim": "18:30"
+       }
+      ],
+      "local": "PAF 1 - 006",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA60",
+    "nome": "BANCO DE DADOS",
+    "componente_id": 44740,
+    "carga_horaria": 60,
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "atrasado": true,
+    "pre_requisitos": "(MATA54) OU (MATD04)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA54",
+     "MATD04"
+    ],
+    "desbloqueia": [
+     "MATB09",
+     "MATB10",
+     "MATC93",
+     "MATC96"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 43"
+      ],
+      "horario_codigo": "35T56",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 5,
+        "inicio": "16:40",
+        "fim": "17:35"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 6,
+        "inicio": "17:35",
+        "fim": "18:30"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 5,
+        "inicio": "16:40",
+        "fim": "17:35"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 6,
+        "inicio": "17:35",
+        "fim": "18:30"
+       }
+      ],
+      "local": "PAF 1 - 106",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "02",
+      "docentes": [
+       "DOCENTE 11"
+      ],
+      "horario_codigo": "3N12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 021",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA64",
+    "nome": "INTELIGÊNCIA ARTIFICIAL",
+    "componente_id": 44748,
+    "carga_horaria": 60,
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "atrasado": true,
+    "pre_requisitos": "(MATC73) OU (MATA47 E MATA53 E MATE12) OU ((MATC73) E (MATD04))",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA53",
+     "MATC73",
+     "MATD04",
+     "MATE12"
+    ],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 05"
+      ],
+      "horario_codigo": "3T34",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "PAF 1 - 101",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "02",
+      "docentes": [
+       "DOCENTE 44"
+      ],
+      "horario_codigo": "4N12",
+      "horarios": [
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 212",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA04",
+    "nome": "CÁLCULO C",
+    "componente_id": 44680,
+    "carga_horaria": 90,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA03) OU (MATA07 E MATA03)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MAT174",
+     "MATA05",
+     "MATB44"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 54"
+      ],
+      "horario_codigo": "246M12",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       }
+      ],
+      "local": "PAF 1 - 119",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "02",
+      "docentes": [
+       "DOCENTE 54"
+      ],
+      "horario_codigo": "246M34",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       }
+      ],
+      "local": "PAF 1 - 119",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "03",
+      "docentes": [
+       "DOCENTE 15"
+      ],
+      "horario_codigo": "246M56",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       }
+      ],
+      "local": "PAF 1 - 207",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "04",
+      "docentes": [
+       "DOCENTE 55"
+      ],
+      "horario_codigo": "246M56",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       }
+      ],
+      "local": "PAF 1 - 201",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "05",
+      "docentes": [
+       "DOCENTE 56"
+      ],
+      "horario_codigo": "246T34",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "PAF 1 - 207",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "06",
+      "docentes": [
+       "DOCENTE 57"
+      ],
+      "horario_codigo": "246T34",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "PAF 1 - 021",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "07",
+      "docentes": [
+       "DOCENTE 58"
+      ],
+      "horario_codigo": "246N12",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 207",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "08",
+      "docentes": [
+       "DOCENTE 58"
+      ],
+      "horario_codigo": "246N34",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       }
+      ],
+      "local": "PAF 1 - 207",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATC82",
+    "nome": "SISTEMAS WEB",
+    "componente_id": 45110,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA55) OU (MATA58 E MATC92)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATC84",
+     "MATC96"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 64"
+      ],
+      "horario_codigo": "6N34",
+      "horarios": [
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       }
+      ],
+      "local": "PAF 1 - 005",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MAT220",
+    "nome": "EMPREENDEDORES EM INFORMATICA",
+    "componente_id": 44579,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATB23"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 53"
+      ],
+      "horario_codigo": "35N12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 109",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA41",
+    "nome": "INFORMÁTICA NA EDUCAÇÃO",
+    "componente_id": 44705,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATB22"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 61"
+      ],
+      "horario_codigo": null,
+      "horarios": [],
+      "local": "A definir",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATB19",
+    "nome": "SISTEMAS MULTIMÍDIA",
+    "componente_id": 44837,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA55)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATB26"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 62"
+      ],
+      "horario_codigo": "5N12",
+      "horarios": [
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 205",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATC92",
+    "nome": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO",
+    "componente_id": 45130,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [
+     "MATC82"
+    ],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 30"
+      ],
+      "horario_codigo": "46N12",
+      "horarios": [
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 005, PAF 1 - 105",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "GICC0009",
+    "nome": "ACCS: JOGOS NA EDUCAÇÃO BÁSICA",
+    "componente_id": 54931,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 46",
+       "DOCENTE 45",
+       "DOCENTE 47"
+      ],
+      "horario_codigo": null,
+      "horarios": [],
+      "local": "A definir",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MAT174",
+    "nome": "CÁLCULO NUMÉRICO I",
+    "componente_id": 44491,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA04 E MATA37) OU (MAT045 E MATA04) OU (MATA03) OU (MATA07 E MATA37 E MATA95) OU (MATB33 E MATB37) OU (MAT045 E MATA04 E MATA07) OU (MATA07) OU (MATA04) OU (MAT045) OU (MAT045 E MATB38 E MATB40) OU (MATA07 E MATA04) OU ((MATA04) E (MATA07) E (MATA37))",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 48"
+      ],
+      "horario_codigo": "24T34",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "PAF 1 - 119",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "02",
+      "docentes": [
+       "DOCENTE 49"
+      ],
+      "horario_codigo": "35M12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       }
+      ],
+      "local": "PAF 1 - 216",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "03",
+      "docentes": [
+       "DOCENTE 49"
+      ],
+      "horario_codigo": "35M56",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       }
+      ],
+      "local": "PAF 1 - 216",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "04",
+      "docentes": [
+       "DOCENTE 50"
+      ],
+      "horario_codigo": "35T12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 1,
+        "inicio": "13:00",
+        "fim": "13:55"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "T",
+        "aula": 2,
+        "inicio": "13:55",
+        "fim": "14:50"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 1,
+        "inicio": "13:00",
+        "fim": "13:55"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "T",
+        "aula": 2,
+        "inicio": "13:55",
+        "fim": "14:50"
+       }
+      ],
+      "local": "PAF 1 - 216",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "05",
+      "docentes": [
+       "DOCENTE 50"
+      ],
+      "horario_codigo": "35N12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 214",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MAT191",
+    "nome": "MATEMATICA FINANCEIRA",
+    "componente_id": 44521,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 51"
+      ],
+      "horario_codigo": "35M12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       }
+      ],
+      "local": "PAF 1 - 212",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "02",
+      "docentes": [
+       "DOCENTE 51"
+      ],
+      "horario_codigo": "35M34",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       }
+      ],
+      "local": "PAF 1 - 207",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "03",
+      "docentes": [
+       "DOCENTE 03"
+      ],
+      "horario_codigo": "35M34",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 3,
+        "inicio": "08:50",
+        "fim": "09:45"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 4,
+        "inicio": "09:45",
+        "fim": "10:40"
+       }
+      ],
+      "local": "PAF 1 - 105",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "04",
+      "docentes": [
+       "DOCENTE 03"
+      ],
+      "horario_codigo": "35M56",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       }
+      ],
+      "local": "PAF 1 - 105",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "06",
+      "docentes": [
+       "DOCENTE 52"
+      ],
+      "horario_codigo": "35N34",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       }
+      ],
+      "local": "PAF 1 - 119",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     },
+     {
+      "turma_id": null,
+      "codigo_turma": "07",
+      "docentes": [
+       "DOCENTE 52"
+      ],
+      "horario_codigo": "35N12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 119",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA05",
+    "nome": "CÁLCULO D",
+    "componente_id": 44682,
+    "carga_horaria": 90,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA03) OU (MATA95) OU (MATA03 E MATA07) OU (MATA07 E MATA04)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 59"
+      ],
+      "horario_codigo": "246M56",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 5,
+        "inicio": "10:40",
+        "fim": "11:35"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 6,
+        "inicio": "11:35",
+        "fim": "12:30"
+       }
+      ],
+      "local": "PAF 1 - 213",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA06",
+    "nome": "CÁLCULO E",
+    "componente_id": 44684,
+    "carga_horaria": 90,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA03 E MATA07)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 60"
+      ],
+      "horario_codigo": "246M12",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 1,
+        "inicio": "07:00",
+        "fim": "07:55"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "M",
+        "aula": 2,
+        "inicio": "07:55",
+        "fim": "08:50"
+       }
+      ],
+      "local": "PAF 1 - 105",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA76",
+    "nome": "LINGUAGENS PARA APLICAÇÃO COMERCIAL",
+    "componente_id": 44769,
+    "carga_horaria": 45,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA40) OU (MATA37)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 53"
+      ],
+      "horario_codigo": "56N34",
+      "horarios": [
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Quinta",
+        "dia_numero": 5,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       }
+      ],
+      "local": "PAF 1 - 103",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA80",
+    "nome": "LABORATÓRIO DE PROGRAMAÇÃO II",
+    "componente_id": 44775,
+    "carga_horaria": 45,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA52)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 04"
+      ],
+      "horario_codigo": null,
+      "horarios": [],
+      "local": "Smart Class Ii",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATA82",
+    "nome": "SISTEMAS DE TEMPO REAL",
+    "componente_id": 44779,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA58) OU (MATA58 E MATA59)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 50"
+      ],
+      "horario_codigo": "6N1234",
+      "horarios": [
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 3,
+        "inicio": "20:20",
+        "fim": "21:15"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "N",
+        "aula": 4,
+        "inicio": "21:15",
+        "fim": "22:10"
+       }
+      ],
+      "local": "PAF 1 - 214",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATC72",
+    "nome": "INTERAÇÃO HUMANO-COMPUTADOR",
+    "componente_id": 45094,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA62)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 47"
+      ],
+      "horario_codigo": "3N12",
+      "horarios": [
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Terça",
+        "dia_numero": 3,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 006",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATC89",
+    "nome": "APLICAÇÕES PARA DISPOSITIVOS MÓVEIS",
+    "componente_id": 45124,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA55 E MATA59)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 45"
+      ],
+      "horario_codigo": null,
+      "horarios": [],
+      "local": "Smart Class III",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATC99",
+    "nome": "SEGURANÇA E AUDITORIA DE SISTEMAS DE INFORMAÇÃO",
+    "componente_id": 45144,
+    "carga_horaria": 60,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA07) OU (MATA07 E ADMF01) OU (MATA07 E MATA58)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": [],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 53"
+      ],
+      "horario_codigo": "2N12",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "N",
+        "aula": 1,
+        "inicio": "18:30",
+        "fim": "19:25"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "N",
+        "aula": 2,
+        "inicio": "19:25",
+        "fim": "20:20"
+       }
+      ],
+      "local": "PAF 1 - 111",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATB09",
+    "nome": "LABORATÓRIO DE BANCO DE DADOS",
+    "componente_id": 44819,
+    "carga_horaria": 45,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATA60) OU (MATD05)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA60",
+     "MATD05"
+    ],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 53"
+      ],
+      "horario_codigo": null,
+      "horarios": [],
+      "local": "Smart Class I",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATB22",
+    "nome": "LABORATÓRIO DE INFORMÁTICA NA EDUCAÇÃO",
+    "componente_id": 44843,
+    "carga_horaria": 45,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATB21) OU (MATA41)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA41",
+     "MATB21"
+    ],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 63"
+      ],
+      "horario_codigo": null,
+      "horarios": [],
+      "local": "Seg Smart Class I / Qua A definir",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   },
+   {
+    "codigo": "MATB44",
+    "nome": "ANÁLISE I",
+    "componente_id": 44883,
+    "carga_horaria": 90,
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "atrasado": false,
+    "pre_requisitos": "(MATB40) OU (MATA04 E MATB41)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA04",
+     "MATB40",
+     "MATB41"
+    ],
+    "desbloqueia": [],
+    "reprovacoes_anteriores": 0,
+    "turmas": [
+     {
+      "turma_id": null,
+      "codigo_turma": "01",
+      "docentes": [
+       "DOCENTE 59"
+      ],
+      "horario_codigo": "246T34",
+      "horarios": [
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Segunda",
+        "dia_numero": 2,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Quarta",
+        "dia_numero": 4,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "T",
+        "aula": 3,
+        "inicio": "14:50",
+        "fim": "15:45"
+       },
+       {
+        "dia": "Sexta",
+        "dia_numero": 6,
+        "turno": "T",
+        "aula": 4,
+        "inicio": "15:45",
+        "fim": "16:40"
+       }
+      ],
+      "local": "PAF 1 - 005",
+      "capacidade": null,
+      "matriculados": null,
+      "vagas_livres": null,
+      "situacao": "ABERTA"
+     }
+    ]
+   }
+  ],
+  "total_ofertados_para_o_curso": 88,
+  "requisitos": [
+   {
+    "codigo": "MAT236",
+    "nome": "MÉTODOS ESTATÍSTICOS",
+    "tipo": "DISCIPLINA",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 3,
+    "pre_requisitos": "(MATA03) OU (MATA02) OU (MATA01 E MATA42) OU (MATA02 E MATA07) OU (MATA42 E MATA95) OU (MATA07)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA50",
+    "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+    "tipo": "DISCIPLINA",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 3,
+    "pre_requisitos": "(MATA42)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA53",
+    "nome": "TEORIA DOS GRAFOS",
+    "tipo": "DISCIPLINA",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "pre_requisitos": "(MATA52) OU (MATB35 E MATB38)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA54",
+    "nome": "ESTRUTURAS DE DADOS E ALGORITMOS II",
+    "tipo": "DISCIPLINA",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "pre_requisitos": "(MATA52)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATE12",
+    "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO A",
+    "tipo": "DISCIPLINA",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "pre_requisitos": "(MATA55)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA60",
+    "nome": "BANCO DE DADOS",
+    "tipo": "DISCIPLINA",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "pre_requisitos": "(MATA54) OU (MATD04)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA54",
+     "MATD04"
+    ]
+   },
+   {
+    "codigo": "MATA64",
+    "nome": "INTELIGÊNCIA ARTIFICIAL",
+    "tipo": "DISCIPLINA",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "pre_requisitos": "(MATC73) OU (MATA47 E MATA53 E MATE12) OU ((MATC73) E (MATD04))",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA53",
+     "MATC73",
+     "MATD04",
+     "MATE12"
+    ]
+   },
+   {
+    "codigo": "MATE11",
+    "nome": "ENGENHARIA DE SOFTWARE II-A",
+    "tipo": "DISCIPLINA",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "pre_requisitos": "(MATA62)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "GICC0001",
+    "nome": "PROJETO FINAL DE CURSO I",
+    "tipo": "ATIVIDADE",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 7,
+    "pre_requisitos": "(FCHC45)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "GICC0002",
+    "nome": "PROJETO FINAL DE CURSO II",
+    "tipo": "ATIVIDADE",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 8,
+    "pre_requisitos": "(GICC0001)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "GICC0001"
+    ]
+   },
+   {
+    "codigo": "GICC0006",
+    "nome": "COMPONENTE DE HOMOLOGAÇÃO DE EXTENSÃO CURRICULAR",
+    "tipo": "ATIVIDADE",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 8,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "GICC0009",
+    "nome": "ACCS: JOGOS NA EDUCAÇÃO BÁSICA",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MAT174",
+    "nome": "CÁLCULO NUMÉRICO I",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA04 E MATA37) OU (MAT045 E MATA04) OU (MATA03) OU (MATA07 E MATA37 E MATA95) OU (MATB33 E MATB37) OU (MAT045 E MATA04 E MATA07) OU (MATA07) OU (MATA04) OU (MAT045) OU (MAT045 E MATB38 E MATB40) OU (MATA07 E MATA04) OU ((MATA04) E (MATA07) E (MATA37))",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MAT191",
+    "nome": "MATEMATICA FINANCEIRA",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MAT220",
+    "nome": "EMPREENDEDORES EM INFORMATICA",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA04",
+    "nome": "CÁLCULO C",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA03) OU (MATA07 E MATA03)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA05",
+    "nome": "CÁLCULO D",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA03) OU (MATA95) OU (MATA03 E MATA07) OU (MATA07 E MATA04)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA06",
+    "nome": "CÁLCULO E",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA03 E MATA07)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA41",
+    "nome": "INFORMÁTICA NA EDUCAÇÃO",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA76",
+    "nome": "LINGUAGENS PARA APLICAÇÃO COMERCIAL",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA40) OU (MATA37)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA80",
+    "nome": "LABORATÓRIO DE PROGRAMAÇÃO II",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA52)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATA82",
+    "nome": "SISTEMAS DE TEMPO REAL",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA58) OU (MATA58 E MATA59)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATB09",
+    "nome": "LABORATÓRIO DE BANCO DE DADOS",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA60) OU (MATD05)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA60",
+     "MATD05"
+    ]
+   },
+   {
+    "codigo": "MATB19",
+    "nome": "SISTEMAS MULTIMÍDIA",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA55)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATB22",
+    "nome": "LABORATÓRIO DE INFORMÁTICA NA EDUCAÇÃO",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATB21) OU (MATA41)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA41",
+     "MATB21"
+    ]
+   },
+   {
+    "codigo": "MATB44",
+    "nome": "ANÁLISE I",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATB40) OU (MATA04 E MATB41)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": false,
+    "faltando": [
+     "MATA04",
+     "MATB40",
+     "MATB41"
+    ]
+   },
+   {
+    "codigo": "MATC72",
+    "nome": "INTERAÇÃO HUMANO-COMPUTADOR",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA62)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATC82",
+    "nome": "SISTEMAS WEB",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA55) OU (MATA58 E MATC92)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATC89",
+    "nome": "APLICAÇÕES PARA DISPOSITIVOS MÓVEIS",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA55 E MATA59)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATC92",
+    "nome": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": null,
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   },
+   {
+    "codigo": "MATC99",
+    "nome": "SEGURANÇA E AUDITORIA DE SISTEMAS DE INFORMAÇÃO",
+    "tipo": "DISCIPLINA",
+    "natureza": "OPTATIVO",
+    "semestre_ideal": null,
+    "pre_requisitos": "(MATA07) OU (MATA07 E ADMF01) OU (MATA07 E MATA58)",
+    "co_requisitos": null,
+    "sequencia_apos": [],
+    "origem_pre_requisitos": "sigaa",
+    "origem_sequencia": null,
+    "apto": true,
+    "faltando": []
+   }
+  ],
+  "avisos": [
+   "Atividades obrigatórias pendentes (não têm turma; a matrícula é pelo colegiado/orientador): GICC0001, GICC0002, GICC0006. Os pré-requisitos delas estão em `requisitos`."
+  ]
+ },
+ "previsao": {
+  "alvo": "2027.1",
+  "desde": "2023.1",
+  "periodo_atual": "2026.2",
+  "componentes": [
+   {
+    "codigo": "MAT236",
+    "nome": "MÉTODOS ESTATÍSTICOS",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 3,
+    "tipo": "DISCIPLINA",
+    "requisito": {
+     "codigo": "MAT236",
+     "nome": "MÉTODOS ESTATÍSTICOS",
+     "tipo": "DISCIPLINA",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 3,
+     "pre_requisitos": "(MATA03) OU (MATA02) OU (MATA01 E MATA42) OU (MATA02 E MATA07) OU (MATA42 E MATA95) OU (MATA07)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": true,
+     "faltando": []
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_sem_oferta": [],
+     "periodos_especiais": [],
+     "paridade": "ambos",
+     "ofertas_impar": 4,
+     "ofertas_par": 4,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 1.0,
+     "frequencia_impar": 1.0,
+     "frequencia_par": 1.0,
+     "chance_impar": 1.0,
+     "chance_par": 1.0,
+     "tendencia": "ambos",
+     "ultima_oferta": "2026.2",
+     "primeira_oferta": "2023.1",
+     "media_turmas_por_oferta": 7.5,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": false,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": true,
+     "probabilidade": 1.0,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "Abriu em 4 de 4 semestres ímpares (x.1) observados (2023.1, 2024.1, 2025.1, 2026.1). Nos 2 mais recentes (2025.1, 2026.1): 2. Chance ponderada: 100%."
+    }
+   },
+   {
+    "codigo": "MATA50",
+    "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 3,
+    "tipo": "DISCIPLINA",
+    "requisito": {
+     "codigo": "MATA50",
+     "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+     "tipo": "DISCIPLINA",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 3,
+     "pre_requisitos": "(MATA42)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": true,
+     "faltando": []
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_sem_oferta": [],
+     "periodos_especiais": [],
+     "paridade": "ambos",
+     "ofertas_impar": 4,
+     "ofertas_par": 4,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 1.0,
+     "frequencia_impar": 1.0,
+     "frequencia_par": 1.0,
+     "chance_impar": 1.0,
+     "chance_par": 1.0,
+     "tendencia": "ambos",
+     "ultima_oferta": "2026.2",
+     "primeira_oferta": "2023.1",
+     "media_turmas_por_oferta": 1.0,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": false,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": true,
+     "probabilidade": 1.0,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "Abriu em 4 de 4 semestres ímpares (x.1) observados (2023.1, 2024.1, 2025.1, 2026.1). Nos 2 mais recentes (2025.1, 2026.1): 2. Chance ponderada: 100%."
+    }
+   },
+   {
+    "codigo": "MATA53",
+    "nome": "TEORIA DOS GRAFOS",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "tipo": "DISCIPLINA",
+    "requisito": {
+     "codigo": "MATA53",
+     "nome": "TEORIA DOS GRAFOS",
+     "tipo": "DISCIPLINA",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 5,
+     "pre_requisitos": "(MATA52) OU (MATB35 E MATB38)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": true,
+     "faltando": []
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_sem_oferta": [],
+     "periodos_especiais": [],
+     "paridade": "ambos",
+     "ofertas_impar": 4,
+     "ofertas_par": 4,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 1.0,
+     "frequencia_impar": 1.0,
+     "frequencia_par": 1.0,
+     "chance_impar": 1.0,
+     "chance_par": 1.0,
+     "tendencia": "ambos",
+     "ultima_oferta": "2026.2",
+     "primeira_oferta": "2023.1",
+     "media_turmas_por_oferta": 1.0,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": false,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": true,
+     "probabilidade": 1.0,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "Abriu em 4 de 4 semestres ímpares (x.1) observados (2023.1, 2024.1, 2025.1, 2026.1). Nos 2 mais recentes (2025.1, 2026.1): 2. Chance ponderada: 100%."
+    }
+   },
+   {
+    "codigo": "MATA54",
+    "nome": "ESTRUTURAS DE DADOS E ALGORITMOS II",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "tipo": "DISCIPLINA",
+    "requisito": {
+     "codigo": "MATA54",
+     "nome": "ESTRUTURAS DE DADOS E ALGORITMOS II",
+     "tipo": "DISCIPLINA",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 5,
+     "pre_requisitos": "(MATA52)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": true,
+     "faltando": []
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_sem_oferta": [],
+     "periodos_especiais": [],
+     "paridade": "ambos",
+     "ofertas_impar": 4,
+     "ofertas_par": 4,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 1.0,
+     "frequencia_impar": 1.0,
+     "frequencia_par": 1.0,
+     "chance_impar": 1.0,
+     "chance_par": 1.0,
+     "tendencia": "ambos",
+     "ultima_oferta": "2026.2",
+     "primeira_oferta": "2023.1",
+     "media_turmas_por_oferta": 1.0,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": false,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": true,
+     "probabilidade": 1.0,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "Abriu em 4 de 4 semestres ímpares (x.1) observados (2023.1, 2024.1, 2025.1, 2026.1). Nos 2 mais recentes (2025.1, 2026.1): 2. Chance ponderada: 100%."
+    }
+   },
+   {
+    "codigo": "MATE12",
+    "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO A",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 5,
+    "tipo": "DISCIPLINA",
+    "requisito": {
+     "codigo": "MATE12",
+     "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO A",
+     "tipo": "DISCIPLINA",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 5,
+     "pre_requisitos": "(MATA55)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": true,
+     "faltando": []
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_sem_oferta": [],
+     "periodos_especiais": [],
+     "paridade": "ambos",
+     "ofertas_impar": 4,
+     "ofertas_par": 4,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 1.0,
+     "frequencia_impar": 1.0,
+     "frequencia_par": 1.0,
+     "chance_impar": 1.0,
+     "chance_par": 1.0,
+     "tendencia": "ambos",
+     "ultima_oferta": "2026.2",
+     "primeira_oferta": "2023.1",
+     "media_turmas_por_oferta": 1.38,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": false,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": true,
+     "probabilidade": 1.0,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "Abriu em 4 de 4 semestres ímpares (x.1) observados (2023.1, 2024.1, 2025.1, 2026.1). Nos 2 mais recentes (2025.1, 2026.1): 2. Chance ponderada: 100%."
+    },
+    "oferta_pela_equivalente": "MATA56"
+   },
+   {
+    "codigo": "MATA60",
+    "nome": "BANCO DE DADOS",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "tipo": "DISCIPLINA",
+    "requisito": {
+     "codigo": "MATA60",
+     "nome": "BANCO DE DADOS",
+     "tipo": "DISCIPLINA",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 6,
+     "pre_requisitos": "(MATA54) OU (MATD04)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": false,
+     "faltando": [
+      "MATA54",
+      "MATD04"
+     ]
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_sem_oferta": [],
+     "periodos_especiais": [],
+     "paridade": "ambos",
+     "ofertas_impar": 4,
+     "ofertas_par": 4,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 1.0,
+     "frequencia_impar": 1.0,
+     "frequencia_par": 1.0,
+     "chance_impar": 1.0,
+     "chance_par": 1.0,
+     "tendencia": "ambos",
+     "ultima_oferta": "2026.2",
+     "primeira_oferta": "2023.1",
+     "media_turmas_por_oferta": 1.75,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": false,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": true,
+     "probabilidade": 1.0,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "Abriu em 4 de 4 semestres ímpares (x.1) observados (2023.1, 2024.1, 2025.1, 2026.1). Nos 2 mais recentes (2025.1, 2026.1): 2. Chance ponderada: 100%."
+    }
+   },
+   {
+    "codigo": "MATA64",
+    "nome": "INTELIGÊNCIA ARTIFICIAL",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "tipo": "DISCIPLINA",
+    "requisito": {
+     "codigo": "MATA64",
+     "nome": "INTELIGÊNCIA ARTIFICIAL",
+     "tipo": "DISCIPLINA",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 6,
+     "pre_requisitos": "(MATC73) OU (MATA47 E MATA53 E MATE12) OU ((MATC73) E (MATD04))",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": false,
+     "faltando": [
+      "MATA53",
+      "MATC73",
+      "MATD04",
+      "MATE12"
+     ]
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_sem_oferta": [],
+     "periodos_especiais": [],
+     "paridade": "ambos",
+     "ofertas_impar": 4,
+     "ofertas_par": 4,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 1.0,
+     "frequencia_impar": 1.0,
+     "frequencia_par": 1.0,
+     "chance_impar": 1.0,
+     "chance_par": 1.0,
+     "tendencia": "ambos",
+     "ultima_oferta": "2026.2",
+     "primeira_oferta": "2023.1",
+     "media_turmas_por_oferta": 1.62,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": false,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": true,
+     "probabilidade": 1.0,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "Abriu em 4 de 4 semestres ímpares (x.1) observados (2023.1, 2024.1, 2025.1, 2026.1). Nos 2 mais recentes (2025.1, 2026.1): 2. Chance ponderada: 100%."
+    }
+   },
+   {
+    "codigo": "MATE11",
+    "nome": "ENGENHARIA DE SOFTWARE II-A",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 6,
+    "tipo": "DISCIPLINA",
+    "requisito": {
+     "codigo": "MATE11",
+     "nome": "ENGENHARIA DE SOFTWARE II-A",
+     "tipo": "DISCIPLINA",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 6,
+     "pre_requisitos": "(MATA62)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": true,
+     "faltando": []
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_sem_oferta": [],
+     "periodos_especiais": [],
+     "paridade": "ambos",
+     "ofertas_impar": 4,
+     "ofertas_par": 4,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 1.0,
+     "frequencia_impar": 1.0,
+     "frequencia_par": 1.0,
+     "chance_impar": 1.0,
+     "chance_par": 1.0,
+     "tendencia": "ambos",
+     "ultima_oferta": "2026.2",
+     "primeira_oferta": "2023.1",
+     "media_turmas_por_oferta": 1.62,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": false,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": true,
+     "probabilidade": 1.0,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "Abriu em 4 de 4 semestres ímpares (x.1) observados (2023.1, 2024.1, 2025.1, 2026.1). Nos 2 mais recentes (2025.1, 2026.1): 2. Chance ponderada: 100%."
+    },
+    "oferta_pela_equivalente": "MATA63"
+   },
+   {
+    "codigo": "GICC0001",
+    "nome": "PROJETO FINAL DE CURSO I",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 7,
+    "tipo": "ATIVIDADE",
+    "requisito": {
+     "codigo": "GICC0001",
+     "nome": "PROJETO FINAL DE CURSO I",
+     "tipo": "ATIVIDADE",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 7,
+     "pre_requisitos": "(FCHC45)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": true,
+     "faltando": []
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [],
+     "periodos_sem_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_especiais": [],
+     "paridade": "sem_oferta",
+     "ofertas_impar": 0,
+     "ofertas_par": 0,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 0.0,
+     "frequencia_impar": 0.0,
+     "frequencia_par": 0.0,
+     "chance_impar": 0.0,
+     "chance_par": 0.0,
+     "tendencia": "sem_oferta",
+     "ultima_oferta": null,
+     "primeira_oferta": null,
+     "media_turmas_por_oferta": null,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": true,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": null,
+     "probabilidade": null,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "ATIVIDADE sem turma (TCC, estágio...): a matrícula é feita pelo colegiado/orientador, não depende de oferta."
+    }
+   },
+   {
+    "codigo": "GICC0002",
+    "nome": "PROJETO FINAL DE CURSO II",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 8,
+    "tipo": "ATIVIDADE",
+    "requisito": {
+     "codigo": "GICC0002",
+     "nome": "PROJETO FINAL DE CURSO II",
+     "tipo": "ATIVIDADE",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 8,
+     "pre_requisitos": "(GICC0001)",
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": false,
+     "faltando": [
+      "GICC0001"
+     ]
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [],
+     "periodos_sem_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_especiais": [],
+     "paridade": "sem_oferta",
+     "ofertas_impar": 0,
+     "ofertas_par": 0,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 0.0,
+     "frequencia_impar": 0.0,
+     "frequencia_par": 0.0,
+     "chance_impar": 0.0,
+     "chance_par": 0.0,
+     "tendencia": "sem_oferta",
+     "ultima_oferta": null,
+     "primeira_oferta": null,
+     "media_turmas_por_oferta": null,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": true,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": null,
+     "probabilidade": null,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "ATIVIDADE sem turma (TCC, estágio...): a matrícula é feita pelo colegiado/orientador, não depende de oferta."
+    }
+   },
+   {
+    "codigo": "GICC0006",
+    "nome": "COMPONENTE DE HOMOLOGAÇÃO DE EXTENSÃO CURRICULAR",
+    "natureza": "OBRIGATORIO",
+    "semestre_ideal": 8,
+    "tipo": "ATIVIDADE",
+    "requisito": {
+     "codigo": "GICC0006",
+     "nome": "COMPONENTE DE HOMOLOGAÇÃO DE EXTENSÃO CURRICULAR",
+     "tipo": "ATIVIDADE",
+     "natureza": "OBRIGATORIO",
+     "semestre_ideal": 8,
+     "pre_requisitos": null,
+     "co_requisitos": null,
+     "sequencia_apos": [],
+     "origem_pre_requisitos": "sigaa",
+     "origem_sequencia": null,
+     "apto": true,
+     "faltando": []
+    },
+    "resumo": {
+     "periodos_analisados": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_com_oferta": [],
+     "periodos_sem_oferta": [
+      "2023.1",
+      "2023.2",
+      "2024.1",
+      "2024.2",
+      "2025.1",
+      "2025.2",
+      "2026.1",
+      "2026.2"
+     ],
+     "periodos_especiais": [],
+     "paridade": "sem_oferta",
+     "ofertas_impar": 0,
+     "ofertas_par": 0,
+     "impares_analisados": 4,
+     "pares_analisados": 4,
+     "frequencia": 0.0,
+     "frequencia_impar": 0.0,
+     "frequencia_par": 0.0,
+     "chance_impar": 0.0,
+     "chance_par": 0.0,
+     "tendencia": "sem_oferta",
+     "ultima_oferta": null,
+     "primeira_oferta": null,
+     "media_turmas_por_oferta": null,
+     "media_vagas_por_oferta": null
+    },
+    "erro": null,
+    "sem_turma": true,
+    "previsao": {
+     "periodo": "2027.1",
+     "provavel": null,
+     "probabilidade": null,
+     "confianca": "alta",
+     "ja_publicada": false,
+     "motivo": "ATIVIDADE sem turma (TCC, estágio...): a matrícula é feita pelo colegiado/orientador, não depende de oferta."
+    }
+   }
+  ],
+  "provaveis": [
+   "MAT236",
+   "MATA50",
+   "MATA53",
+   "MATA54",
+   "MATE12",
+   "MATA60",
+   "MATA64",
+   "MATE11"
+  ],
+  "improvaveis": [],
+  "sem_historico": [
+   "GICC0001",
+   "GICC0002",
+   "GICC0006"
+  ],
+  "avisos": []
+ },
+ "_demo": true,
+ "estrutura": {
+  "id": 2421564,
+  "curso_id": 1876851,
+  "codigo": "G20251X",
+  "matriz_curricular": "CIÊNCIA DA COMPUTAÇÃO - SALVADOR - BACHARELADO - Presencial - MT",
+  "periodo_vigor": "2025.2",
+  "ch_total_minima": 3296,
+  "ch_obrigatoria_aula": 2070,
+  "ch_obrigatoria_orientacao": 166,
+  "ch_obrigatoria_total": 2236,
+  "ch_optativa_minima": 630,
+  "ch_complementar_minima": 430,
+  "ch_atividade_academica_especifica": 0,
+  "ch_maxima_eletivos": 0,
+  "ch_maxima_periodo": 540,
+  "prazo_minimo": 8,
+  "prazo_medio": 8,
+  "prazo_maximo": 12,
+  "niveis": [
+   {
+    "nivel": 1,
+    "rotulo": "1º Nível",
+    "tipo": "nivel",
+    "carga_horaria_total": 375,
+    "componentes": [
+     {
+      "id": 44674,
+      "codigo": "MATA01",
+      "nome": "GEOMETRIA ANALÍTICA",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44676,
+      "codigo": "MATA02",
+      "nome": "CÁLCULO A",
+      "carga_horaria": 90,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44697,
+      "codigo": "MATA37",
+      "nome": "INTRODUÇÃO À LÓGICA DE PROGRAMAÇÃO",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44699,
+      "codigo": "MATA38",
+      "nome": "PROJETO DE CIRCUITOS LÓGICOS",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44701,
+      "codigo": "MATA39",
+      "nome": "SEMINÁRIOS DE INTRODUÇÃO AO CURSO",
+      "carga_horaria": 45,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44707,
+      "codigo": "MATA42",
+      "nome": "MATEMÁTICA DISCRETA I",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     }
+    ]
+   },
+   {
+    "nivel": 2,
+    "rotulo": "2º Nível",
+    "tipo": "nivel",
+    "carga_horaria_total": 375,
+    "componentes": [
+     {
+      "id": 44686,
+      "codigo": "MATA07",
+      "nome": "ÁLGEBRA LINEAR A",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44703,
+      "codigo": "MATA40",
+      "nome": "ESTRUTURAS DE DADOS E ALGORITMOS I",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44716,
+      "codigo": "MATA48",
+      "nome": "ARQUITETURA DE COMPUTADORES",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44734,
+      "codigo": "MATA57",
+      "nome": "LABORATÓRIO DE PROGRAMAÇÃO I",
+      "carga_horaria": 45,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44800,
+      "codigo": "MATA95",
+      "nome": "COMPLEMENTOS DE CÁLCULO",
+      "carga_horaria": 90,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44803,
+      "codigo": "MATA97",
+      "nome": "MATEMÁTICA DISCRETA II",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     }
+    ]
+   },
+   {
+    "nivel": 3,
+    "rotulo": "3º Nível",
+    "tipo": "nivel",
+    "carga_horaria_total": 390,
+    "componentes": [
+     {
+      "id": 34846,
+      "codigo": "FISA75",
+      "nome": "ELEMENTOS DO ELETROMAGNETISMO E DE CIRCUITOS ELÉTRICOS",
+      "carga_horaria": 90,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44610,
+      "codigo": "MAT236",
+      "nome": "MÉTODOS ESTATÍSTICOS",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44714,
+      "codigo": "MATA47",
+      "nome": "LÓGICA PARA COMPUTAÇÃO",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44718,
+      "codigo": "MATA49",
+      "nome": "PROGRAMAÇÃO DE SOFTWARE BÁSICO",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44720,
+      "codigo": "MATA50",
+      "nome": "LINGUAGENS FORMAIS E AUTÔMATOS",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44730,
+      "codigo": "MATA55",
+      "nome": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     }
+    ]
+   },
+   {
+    "nivel": 4,
+    "rotulo": "4º Nível",
+    "tipo": "nivel",
+    "carga_horaria_total": 345,
+    "componentes": [
+     {
+      "id": 33832,
+      "codigo": "FCHC45",
+      "nome": "METODOLOGIA E EXPRESSÃO TÉCNICO-CIENTÍFICA",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44722,
+      "codigo": "MATA51",
+      "nome": "TEORIA DA COMPUTAÇÃO",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44724,
+      "codigo": "MATA52",
+      "nome": "ANÁLISE E PROJETO DE ALGORITMOS",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44736,
+      "codigo": "MATA58",
+      "nome": "SISTEMAS OPERACIONAIS",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44742,
+      "codigo": "MATA61",
+      "nome": "COMPILADORES",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44756,
+      "codigo": "MATA68",
+      "nome": "COMPUTADOR, ÉTICA E SOCIEDADE",
+      "carga_horaria": 45,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     }
+    ]
+   },
+   {
+    "nivel": 5,
+    "rotulo": "5º Nível",
+    "tipo": "nivel",
+    "carga_horaria_total": 300,
+    "componentes": [
+     {
+      "id": 44726,
+      "codigo": "MATA53",
+      "nome": "TEORIA DOS GRAFOS",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44728,
+      "codigo": "MATA54",
+      "nome": "ESTRUTURAS DE DADOS E ALGORITMOS II",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44738,
+      "codigo": "MATA59",
+      "nome": "REDES DE COMPUTADORES I",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44744,
+      "codigo": "MATA62",
+      "nome": "ENGENHARIA DE SOFTWARE I",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 45231,
+      "codigo": "MATE12",
+      "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO A",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     }
+    ]
+   },
+   {
+    "nivel": 6,
+    "rotulo": "6º Nível",
+    "tipo": "nivel",
+    "carga_horaria_total": 285,
+    "componentes": [
+     {
+      "id": 44740,
+      "codigo": "MATA60",
+      "nome": "BANCO DE DADOS",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44748,
+      "codigo": "MATA64",
+      "nome": "INTELIGÊNCIA ARTIFICIAL",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44750,
+      "codigo": "MATA65",
+      "nome": "COMPUTAÇÃO GRÁFICA",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 44791,
+      "codigo": "MATA88",
+      "nome": "FUNDAMENTOS DE SISTEMAS DISTRIBUÍDOS",
+      "carga_horaria": 45,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 45229,
+      "codigo": "MATE11",
+      "nome": "ENGENHARIA DE SOFTWARE II-A",
+      "carga_horaria": 60,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     }
+    ]
+   },
+   {
+    "nivel": 7,
+    "rotulo": "7º Nível",
+    "tipo": "nivel",
+    "carga_horaria_total": 45,
+    "componentes": [
+     {
+      "id": 52372,
+      "codigo": "GICC0001",
+      "nome": "PROJETO FINAL DE CURSO I",
+      "carga_horaria": 45,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     }
+    ]
+   },
+   {
+    "nivel": 8,
+    "rotulo": "8º Nível",
+    "tipo": "nivel",
+    "carga_horaria_total": 121,
+    "componentes": [
+     {
+      "id": 52373,
+      "codigo": "GICC0002",
+      "nome": "PROJETO FINAL DE CURSO II",
+      "carga_horaria": 120,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     },
+     {
+      "id": 54479,
+      "codigo": "GICC0006",
+      "nome": "COMPONENTE DE HOMOLOGAÇÃO DE EXTENSÃO CURRICULAR",
+      "carga_horaria": 1,
+      "natureza": "Obrigatória",
+      "obrigatoria": true
+     }
+    ]
+   }
+  ],
+  "optativas": [
+   {
+    "id": 21989,
+    "codigo": "ADM001",
+    "nome": "INTRODUCÃO À ADMINISTRACAO",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 22118,
+    "codigo": "ADM170",
+    "nome": "ADMINISTRACAO CONTABIL I",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 22120,
+    "codigo": "ADM171",
+    "nome": "ELEMENTOS E ANALISES DE CUSTOS",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 22369,
+    "codigo": "ADME99",
+    "nome": "ECONOMIA DA INOVAÇÃO",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 27404,
+    "codigo": "ECO173",
+    "nome": "ECONOMIA BRASILEIRA CONTEMPORANEA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 27489,
+    "codigo": "ECOB40",
+    "nome": "INTRODUÇÃO À ECONOMIA I",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 27601,
+    "codigo": "EDC001",
+    "nome": "EDUCAÇÃO ABERTA, CONTINUADA E A DISTÂNCIA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 30369,
+    "codigo": "ENG229",
+    "nome": "APLICAÇÕES INDUSTRIAIS DA COMPUTAÇÃO",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 31227,
+    "codigo": "ENGC40",
+    "nome": "ELETRÔNICA DIGITAL",
+    "carga_horaria": 30,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 31468,
+    "codigo": "ENGG51",
+    "nome": "INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO",
+    "carga_horaria": 30,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 31470,
+    "codigo": "ENGG52",
+    "nome": "LABORATÓRIO INTEGRADO I-A",
+    "carga_horaria": 30,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 31472,
+    "codigo": "ENGG53",
+    "nome": "LABORATÓRIO INTEGRADO II-A",
+    "carga_horaria": 30,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 32431,
+    "codigo": "FCC001",
+    "nome": "CONTABILIDADE GERAL I",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 32463,
+    "codigo": "FCC024",
+    "nome": "CONTABILIDADE DE CUSTOS",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 52316,
+    "codigo": "GADM0008",
+    "nome": "ADMINISTRAÇÃO MERCADOLÓGICA I",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 54168,
+    "codigo": "GDIP015",
+    "nome": "APROVEITAMENTO DE CH OPTATIVA - 15 HORAS",
+    "carga_horaria": 15,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 54169,
+    "codigo": "GDIP030",
+    "nome": "APROVEITAMENTO DE CH OPTATIVA - 30 HORAS",
+    "carga_horaria": 30,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 54170,
+    "codigo": "GDIP060",
+    "nome": "APROVEITAMENTO DE CH OPTATIVA - 60 HORAS",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 54171,
+    "codigo": "GDIP120",
+    "nome": "APROVEITAMENTO DE CH OPTATIVA - 120 HORAS",
+    "carga_horaria": 120,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 54172,
+    "codigo": "GDIP240",
+    "nome": "APROVEITAMENTO DE CH OPTATIVA - 240 HORAS",
+    "carga_horaria": 240,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 54173,
+    "codigo": "GDIP480",
+    "nome": "APROVEITAMENTO DE CH OPTATIVA - 480 HORAS",
+    "carga_horaria": 480,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 54931,
+    "codigo": "GICC0009",
+    "nome": "ACCS: JOGOS NA EDUCAÇÃO BÁSICA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 55098,
+    "codigo": "GICC0010",
+    "nome": "ACCS:IA PARA DESENVOLVIMENTO COLABORATIVO DE SISTEMAS",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 36585,
+    "codigo": "HACA01",
+    "nome": "ESTUDOS SOBRE A CONTEMPORANEIDADE I",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 36587,
+    "codigo": "HACA02",
+    "nome": "ELEMENTOS ACADÊMICOS E PROFISSIONAIS EM CIÊNCIA E TECNOLOGIA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 36599,
+    "codigo": "HACA09",
+    "nome": "CIÊNCIA E TECNOLOGIA I",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 36610,
+    "codigo": "HACA34",
+    "nome": "ESTUDOS SOBRE A CONTEMPORANEIDADE II",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 36618,
+    "codigo": "HACA38",
+    "nome": "CIÊNCIA E TECNOLOGIA II",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 41656,
+    "codigo": "IPSA39",
+    "nome": "PSICOLOGIA DAS RELACOES HUMANAS",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 42400,
+    "codigo": "LET054",
+    "nome": "INGLES INSTRUMENTAL II N-100",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43156,
+    "codigo": "LET358",
+    "nome": "INGLES INSTRUMENTAL III N-100",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43158,
+    "codigo": "LET359",
+    "nome": "INGLES INSTRUMENTAL IV N-100",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43368,
+    "codigo": "LETA13",
+    "nome": "INTRODUÇÃO AO ESTUDO DA LINGUA PORTUGUESA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43372,
+    "codigo": "LETA15",
+    "nome": "LEITURA DE TEXTOS EM LINGUA INGLESA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43398,
+    "codigo": "LETA28",
+    "nome": "INTRODUÇÃO À ANÁLISE TEXTUAL",
+    "carga_horaria": 30,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43600,
+    "codigo": "LETB33",
+    "nome": "LINGUA ALEMÃ EM NIVEL BÁSICO",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43602,
+    "codigo": "LETB34",
+    "nome": "LINGUA ALEMÃ EM NIVEL INTERMEDIÁRIO",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43604,
+    "codigo": "LETB35",
+    "nome": "LINGUA ALEMÃ EM NIVEL AVANÇADO",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43606,
+    "codigo": "LETB36",
+    "nome": "LÍNGUA ESPANHOLA EM NÍVEL BÁSICO",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43608,
+    "codigo": "LETB37",
+    "nome": "LINGUA ESPANHOLA EM NIVEL INTERMEDIÁRIO",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43610,
+    "codigo": "LETB38",
+    "nome": "LINGUA ESPANHOLA EM NIVEL AVANÇADO",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43622,
+    "codigo": "LETB44",
+    "nome": "LINGUA INGLESA EM NIVEL AVANÇADO",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 43886,
+    "codigo": "LETC84",
+    "nome": "LEITURA DE TEXTOS ACADÊMICOS EM LINGUA INGLESA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44127,
+    "codigo": "LETE21",
+    "nome": "REDAÇÃO EMPRESARIAL EM LINGUA INGLESA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44148,
+    "codigo": "LETE48",
+    "nome": "LIBRAS I- LÍNGUA BRASILEIRA DE SINAIS NIVEL I",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44491,
+    "codigo": "MAT174",
+    "nome": "CÁLCULO NUMÉRICO I",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44521,
+    "codigo": "MAT191",
+    "nome": "MATEMATICA FINANCEIRA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44579,
+    "codigo": "MAT220",
+    "nome": "EMPREENDEDORES EM INFORMATICA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44678,
+    "codigo": "MATA03",
+    "nome": "CÁLCULO B",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44680,
+    "codigo": "MATA04",
+    "nome": "CÁLCULO C",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44682,
+    "codigo": "MATA05",
+    "nome": "CÁLCULO D",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44684,
+    "codigo": "MATA06",
+    "nome": "CÁLCULO E",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44705,
+    "codigo": "MATA41",
+    "nome": "INFORMÁTICA NA EDUCAÇÃO",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44758,
+    "codigo": "MATA69",
+    "nome": "MODELAGEM E SIMULAÇÃO DE SISTEMAS",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44761,
+    "codigo": "MATA72",
+    "nome": "TÓPICOS EM ARQUITETURA DE COMPUTADORES",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44763,
+    "codigo": "MATA73",
+    "nome": "LABORATÓRIO DE CIRCUITOS DIGITAIS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44765,
+    "codigo": "MATA74",
+    "nome": "TÓPICOS EM COMPUTAÇÃO E ALGORITMOS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44767,
+    "codigo": "MATA75",
+    "nome": "SEMÂNTICA DE LINGUAGEM DE PROGRAMAÇÃO",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44769,
+    "codigo": "MATA76",
+    "nome": "LINGUAGENS PARA APLICAÇÃO COMERCIAL",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44771,
+    "codigo": "MATA77",
+    "nome": "PROGRAMAÇÃO FUNCIONAL",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44773,
+    "codigo": "MATA79",
+    "nome": "TÓPICOS EM PROGRAMAÇÃO",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44775,
+    "codigo": "MATA80",
+    "nome": "LABORATÓRIO DE PROGRAMAÇÃO II",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44777,
+    "codigo": "MATA81",
+    "nome": "LABORATÓRIO DE SISTEMAS OPERACIONAIS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44779,
+    "codigo": "MATA82",
+    "nome": "SISTEMAS DE TEMPO REAL",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44781,
+    "codigo": "MATA83",
+    "nome": "TÓPICOS EM SISTEMAS OPERACIONAIS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44785,
+    "codigo": "MATA85",
+    "nome": "REDES DE COMPUTADORES II",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44787,
+    "codigo": "MATA86",
+    "nome": "TÓPICOS EM REDES DE COMPUTADORES",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44789,
+    "codigo": "MATA87",
+    "nome": "SEGURANÇA DA INFORMAÇÃO",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44793,
+    "codigo": "MATA89",
+    "nome": "ARQUITETURAS DE SISTEMAS DISTRIBUÍDOS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44795,
+    "codigo": "MATA90",
+    "nome": "ALGORITMOS DISTRIBUIDOS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44805,
+    "codigo": "MATB01",
+    "nome": "LABORATÓRIO DE REDES DE COMPUTADORES",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44807,
+    "codigo": "MATB02",
+    "nome": "QUALIDADE DE SOFTWARE",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44809,
+    "codigo": "MATB03",
+    "nome": "EVOLUÇÃO DE SOFTWARE",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44811,
+    "codigo": "MATB04",
+    "nome": "TÓPICOS EM COMPUTAÇÃO GRÁFICA E PROCESSAMENTO DE IMAGENS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44813,
+    "codigo": "MATB05",
+    "nome": "TÓPICOS EM INTELIGÊNCIA ARTIFICIAL",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44815,
+    "codigo": "MATB06",
+    "nome": "TÓPICOS EM SISTEMAS DISTRIBUIDOS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44819,
+    "codigo": "MATB09",
+    "nome": "LABORATÓRIO DE BANCO DE DADOS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44821,
+    "codigo": "MATB10",
+    "nome": "TÓPICOS EM BANCO DE DADOS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44823,
+    "codigo": "MATB11",
+    "nome": "LABORATÓRIO DE COMPILADORES",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44825,
+    "codigo": "MATB12",
+    "nome": "TÓPICOS EM COMPILADORES",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44827,
+    "codigo": "MATB13",
+    "nome": "MÉTODOS FORMAIS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44829,
+    "codigo": "MATB14",
+    "nome": "LABORATÓRIO DE ENGENHARIA DE SOFTWARE",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44831,
+    "codigo": "MATB15",
+    "nome": "VALIDAÇÃO DE SOFTWARE",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44833,
+    "codigo": "MATB16",
+    "nome": "LABORATÓRIO DE INTELIGÊNCIA ARTIFICIAL",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44835,
+    "codigo": "MATB17",
+    "nome": "LAB. DE COMPUTAÇÃO GRÁFICA E PROCESSAMENTO DE IMAGENS",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44837,
+    "codigo": "MATB19",
+    "nome": "SISTEMAS MULTIMÍDIA",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44841,
+    "codigo": "MATB21",
+    "nome": "AMBIENTES INTERATIVOS DE APRENDIZAGEM",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44843,
+    "codigo": "MATB22",
+    "nome": "LABORATÓRIO DE INFORMÁTICA NA EDUCAÇÃO",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44845,
+    "codigo": "MATB23",
+    "nome": "SEMINÁRIOS EM EMPREENDEDORISMO",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44847,
+    "codigo": "MATB24",
+    "nome": "ROBÓTICA INTELIGENTE",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44849,
+    "codigo": "MATB25",
+    "nome": "TÓPICOS EM ENGENHARIA DE SOFTWARE",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44851,
+    "codigo": "MATB26",
+    "nome": "TÓPICOS EM SISTEMAS MULTIMÍDIA",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44859,
+    "codigo": "MATB32",
+    "nome": "INTRODUÇÃO À TEORIA DOS NÚMEROS",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 44883,
+    "codigo": "MATB44",
+    "nome": "ANÁLISE I",
+    "carga_horaria": 90,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45094,
+    "codigo": "MATC72",
+    "nome": "INTERAÇÃO HUMANO-COMPUTADOR",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45110,
+    "codigo": "MATC82",
+    "nome": "SISTEMAS WEB",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45114,
+    "codigo": "MATC84",
+    "nome": "LABORATÓRIO DE PROGRAMAÇÃO WEB",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45122,
+    "codigo": "MATC88",
+    "nome": "ADMINISTRAÇÃO DE REDES DE COMPUTADORES",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45124,
+    "codigo": "MATC89",
+    "nome": "APLICAÇÕES PARA DISPOSITIVOS MÓVEIS",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45130,
+    "codigo": "MATC92",
+    "nome": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45132,
+    "codigo": "MATC93",
+    "nome": "INTRODUÇÃO A WEB SEMÂNTICA",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45138,
+    "codigo": "MATC96",
+    "nome": "ORGANIZAÇÃO, GERENCIAMENTO E RECUPERAÇÃO DA INFORMAÇÃO",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45144,
+    "codigo": "MATC99",
+    "nome": "SEGURANÇA E AUDITORIA DE SISTEMAS DE INFORMAÇÃO",
+    "carga_horaria": 60,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   },
+   {
+    "id": 45233,
+    "codigo": "MATE13",
+    "nome": "PROGRAMAÇÃO CONCORRENTE, DISTRIBUÍDA E PARALELA",
+    "carga_horaria": 45,
+    "natureza": "Optativa",
+    "obrigatoria": false
+   }
+  ],
+  "complementares": [],
+  "ch_total_optativas_listadas": 6450
+ },
+ "_ficticio": "Aluno fictício de Ciência da Computação. Estrutura curricular G20251X, pré-requisitos, oferta 2023.1-2026.2 e turmas de 2026.2 são dados públicos do curso no SIGAA da UFBA; histórico, notas e trancamentos são inventados."
+}
